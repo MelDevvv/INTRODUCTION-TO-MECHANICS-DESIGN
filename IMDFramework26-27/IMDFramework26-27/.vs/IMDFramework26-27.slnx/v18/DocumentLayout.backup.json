@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\CharacterMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Assessment 1 Scripts\\CharacterMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\Jump Buffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Assessment 1 Scripts\\Jump Buffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\coyote time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\coyote time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\CharacterMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Assessment 1 Scripts\\CharacterMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Jump Buffering.cs",
               "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\Jump Buffering.cs",
               "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\Jump Buffering.cs",
@@ -39,7 +39,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Coyote Time.cs",
               "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\Coyote Time.cs",
               "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\Coyote Time.cs",
@@ -52,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CharacterMovement.cs",
               "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\CharacterMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\CharacterMovement.cs",
