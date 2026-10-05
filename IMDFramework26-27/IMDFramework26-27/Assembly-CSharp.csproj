@@ -49,9 +49,13 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Assessment 1 Scripts\PlayerManager.cs" />
+    <Compile Include="Assets\Assessment 1 Scripts\InputHandler.cs" />
     <Compile Include="Assets\Assessment 1 Scripts\Jump Buffering.cs" />
+    <Compile Include="Assets\Assessment 1 Scripts\GroundSensor.cs" />
     <Compile Include="Assets\Assessment 1 Scripts\CharacterMovement.cs" />
     <Compile Include="Assets\PlayerController\PlayerControls.cs" />
+    <Compile Include="Assets\Assessment 1 Scripts\GameManager.cs" />
     <Compile Include="Assets\Assessment 1 Scripts\Coyote Time.cs" />
   </ItemGroup>
   <ItemGroup>

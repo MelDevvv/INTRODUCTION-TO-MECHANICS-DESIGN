@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\CharacterMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Assessment 1 Scripts\\CharacterMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\Jump Buffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Assessment 1 Scripts\\Jump Buffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\PlayerManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Assessment 1 Scripts\\PlayerManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\jump buffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\jump buffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\coyote time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\coyote time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\groundsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\groundsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +38,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerManager.cs",
+              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\PlayerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\PlayerManager.cs",
+              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\PlayerManager.cs",
+              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\PlayerManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T13:46:09.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T13:45:18.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GroundSensor.cs",
+              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\GroundSensor.cs",
+              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\GroundSensor.cs",
+              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\GroundSensor.cs",
+              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\GroundSensor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T13:43:30.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InputHandler.cs",
+              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\InputHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\InputHandler.cs",
+              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\InputHandler.cs",
+              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\InputHandler.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T13:41:40.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Jump Buffering.cs",
               "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\Jump Buffering.cs",
               "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\Jump Buffering.cs",
               "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\Jump Buffering.cs",
               "RelativeToolTip": "Assets\\Assessment 1 Scripts\\Jump Buffering.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T13:20:01.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Coyote Time.cs",
               "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\Coyote Time.cs",
               "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\Coyote Time.cs",
@@ -58,7 +126,7 @@
               "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\CharacterMovement.cs",
               "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\CharacterMovement.cs",
               "RelativeToolTip": "Assets\\Assessment 1 Scripts\\CharacterMovement.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAAHYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAAK8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T13:13:18.751Z",
               "EditorCaption": ""
