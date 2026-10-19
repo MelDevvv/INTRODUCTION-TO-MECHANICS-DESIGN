@@ -50,13 +50,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Assessment 1 Scripts\PlayerManager.cs" />
+    <Compile Include="Assets\Assessment 1 Scripts\forgivness\AntiGravityApex.cs" />
     <Compile Include="Assets\Assessment 1 Scripts\InputHandler.cs" />
-    <Compile Include="Assets\Assessment 1 Scripts\Jump Buffering.cs" />
     <Compile Include="Assets\Assessment 1 Scripts\GroundSensor.cs" />
+    <Compile Include="Assets\Assessment 1 Scripts\forgivness\BumpedHeadCorrection.cs" />
     <Compile Include="Assets\Assessment 1 Scripts\CharacterMovement.cs" />
+    <Compile Include="Assets\Assessment 1 Scripts\forgivness\Coyote Time.cs" />
+    <Compile Include="Assets\Assessment 1 Scripts\forgivness\VariableJump.cs" />
     <Compile Include="Assets\PlayerController\PlayerControls.cs" />
+    <Compile Include="Assets\Assessment 1 Scripts\Cam.cs" />
+    <Compile Include="Assets\Assessment 1 Scripts\forgivness\SpeedApex.cs" />
+    <Compile Include="Assets\Assessment 1 Scripts\forgivness\Jump Buffering.cs" />
     <Compile Include="Assets\Assessment 1 Scripts\GameManager.cs" />
-    <Compile Include="Assets\Assessment 1 Scripts\Coyote Time.cs" />
+    <Compile Include="Assets\Assessment 1 Scripts\forgivness\CornerClips.cs" />
+    <Compile Include="Assets\Assessment 1 Scripts\forgivness\StickyFeet.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

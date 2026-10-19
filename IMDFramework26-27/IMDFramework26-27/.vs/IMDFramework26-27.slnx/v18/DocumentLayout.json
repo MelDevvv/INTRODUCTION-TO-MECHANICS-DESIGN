@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\Cam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Assessment 1 Scripts\\Cam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\forgivness\\coyote time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\forgivness\\coyote time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\PlayerManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Assessment 1 Scripts\\PlayerManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\jump buffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\jump buffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\coyote time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\coyote time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\groundsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\groundsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\forgivness\\bumpedheadcorrection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\forgivness\\bumpedheadcorrection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\forgivness\\cornerclips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\forgivness\\cornerclips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\forgivness\\stickyfeet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\forgivness\\stickyfeet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\forgivness\\VariableJump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Assessment 1 Scripts\\forgivness\\VariableJump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\introduction-to-mechanics-design\\imdframework26-27\\imdframework26-27\\assets\\assessment 1 scripts\\forgivness\\speedapex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1 scripts\\forgivness\\speedapex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,45 +54,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerManager.cs",
-              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\PlayerManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\PlayerManager.cs",
-              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\PlayerManager.cs",
-              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\PlayerManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T13:46:09.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Title": "Coyote Time.cs",
+              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\forgivness\\Coyote Time.cs",
+              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\forgivness\\Coyote Time.cs",
+              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\forgivness\\Coyote Time.cs",
+              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\forgivness\\Coyote Time.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T13:45:18.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GroundSensor.cs",
-              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\GroundSensor.cs",
-              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\GroundSensor.cs",
-              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\GroundSensor.cs",
-              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\GroundSensor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T13:43:30.591Z",
+              "WhenOpened": "2026-10-19T16:50:08.53Z",
               "EditorCaption": ""
             },
             {
@@ -87,49 +77,126 @@
               "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\InputHandler.cs",
               "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\InputHandler.cs",
               "RelativeToolTip": "Assets\\Assessment 1 Scripts\\InputHandler.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwCsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T13:41:40.423Z",
+              "WhenOpened": "2026-10-19T16:06:54.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CornerClips.cs",
+              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\forgivness\\CornerClips.cs",
+              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\forgivness\\CornerClips.cs",
+              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\forgivness\\CornerClips.cs",
+              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\forgivness\\CornerClips.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAcwF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T15:42:25.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Jump Buffering.cs",
-              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\Jump Buffering.cs",
-              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\Jump Buffering.cs",
-              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\Jump Buffering.cs",
-              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\Jump Buffering.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Title": "GroundSensor.cs",
+              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\GroundSensor.cs",
+              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\GroundSensor.cs",
+              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\GroundSensor.cs",
+              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\GroundSensor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T13:20:01.336Z",
+              "WhenOpened": "2026-10-19T15:01:56.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Coyote Time.cs",
-              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\Coyote Time.cs",
-              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\Coyote Time.cs",
-              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\Coyote Time.cs",
-              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\Coyote Time.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T13:14:55.072Z",
+              "WhenOpened": "2026-10-19T15:01:55.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BumpedHeadCorrection.cs",
+              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\forgivness\\BumpedHeadCorrection.cs",
+              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\forgivness\\BumpedHeadCorrection.cs",
+              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\forgivness\\BumpedHeadCorrection.cs",
+              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\forgivness\\BumpedHeadCorrection.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T14:48:11.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StickyFeet.cs",
+              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\forgivness\\StickyFeet.cs",
+              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\forgivness\\StickyFeet.cs",
+              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\forgivness\\StickyFeet.cs",
+              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\forgivness\\StickyFeet.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA0wC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T14:44:24.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Cam.cs",
+              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\Cam.cs",
+              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\Cam.cs",
+              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\Cam.cs",
+              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\Cam.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T14:20:17.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VariableJump.cs",
+              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\forgivness\\VariableJump.cs",
+              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\forgivness\\VariableJump.cs",
+              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\forgivness\\VariableJump.cs",
+              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\forgivness\\VariableJump.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA0wCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T14:36:02.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CharacterMovement.cs",
               "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\CharacterMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\CharacterMovement.cs",
               "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\CharacterMovement.cs",
               "RelativeToolTip": "Assets\\Assessment 1 Scripts\\CharacterMovement.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAAAK8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAqwDUBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T13:13:18.751Z",
+              "WhenOpened": "2026-10-19T13:47:43.236Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SpeedApex.cs",
+              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\forgivness\\SpeedApex.cs",
+              "RelativeDocumentMoniker": "Assets\\Assessment 1 Scripts\\forgivness\\SpeedApex.cs",
+              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\INTRODUCTION-TO-MECHANICS-DESIGN\\IMDFramework26-27\\IMDFramework26-27\\Assets\\Assessment 1 Scripts\\forgivness\\SpeedApex.cs",
+              "RelativeToolTip": "Assets\\Assessment 1 Scripts\\forgivness\\SpeedApex.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T13:59:27.086Z"
             }
           ]
         }
