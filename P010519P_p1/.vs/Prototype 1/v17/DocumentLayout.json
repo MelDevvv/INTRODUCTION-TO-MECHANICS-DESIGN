@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\p010519p\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\game_prototyping\\prototype 1\\assets\\edgar\u0027s work\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|c:\\users\\p010519p\\documents\\github\\game_prototyping\\prototype 1\\assets\\edgar\u0027s work\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2201CC7D-DE28-3578-5930-53E92C6F9545}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\Assets\\Edgar\u0027s Work\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\Assets\\Edgar\u0027s Work\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\CameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T10:28:53.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\p010519p\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\Assets\\Edgar\u0027s Work\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\p010519p\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\Assets\\Edgar\u0027s Work\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\PlayerController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T10:28:54.483Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

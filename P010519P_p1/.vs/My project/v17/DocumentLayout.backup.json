@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\assets\\edgar\u0027s work\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|c:\\users\\edgar\\onedrive\\documents\\github\\game_prototyping\\prototype 1\\my project\\assets\\edgar\u0027s work\\scripts\\mainmenuwithsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\scripts\\mainmenuwithsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\assets\\edgar\u0027s work\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\assets\\edgar\u0027s work\\scripts\\triggerzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\scripts\\triggerzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\assets\\edgar\u0027s work\\scripts\\trapspike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\scripts\\trapspike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\assets\\edgar\u0027s work\\scripts\\teleporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\scripts\\teleporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\assets\\edgar\u0027s work\\scripts\\popupspike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\scripts\\popupspike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\assets\\edgar\u0027s work\\scripts\\movingplatformtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\scripts\\movingplatformtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\assets\\edgar\u0027s work\\scripts\\leveldoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\scripts\\leveldoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\assets\\edgar\u0027s work\\scripts\\destroyaftertime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\scripts\\destroyaftertime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\assets\\edgar\u0027s work\\scripts\\deathtauntsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\scripts\\deathtauntsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\assets\\edgar\u0027s work\\scripts\\deathcounterui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\scripts\\deathcounterui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\assets\\edgar\u0027s work\\scripts\\cursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\scripts\\cursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\assets\\edgar\u0027s work\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\assets\\edgar\u0027s work\\scripts\\bassbloompulse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\edgar\u0027s work\\scripts\\bassbloompulse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TriggerZone.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\TriggerZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\Scripts\\TriggerZone.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\TriggerZone.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\Scripts\\TriggerZone.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:00:58.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrapSpike.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\TrapSpike.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\Scripts\\TrapSpike.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\TrapSpike.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\Scripts\\TrapSpike.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowIcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:00:39.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\Scripts\\PauseMenu.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\Scripts\\PauseMenu.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAowKYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T18:59:10.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Teleporter.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\Teleporter.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\Scripts\\Teleporter.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\Teleporter.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\Scripts\\Teleporter.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:00:21.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainMenuWithSettings.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\MainMenuWithSettings.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\Scripts\\MainMenuWithSettings.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\MainMenuWithSettings.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\Scripts\\MainMenuWithSettings.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAwwJIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T18:58:32.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PopUpSpike.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\PopUpSpike.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\Scripts\\PopUpSpike.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\PopUpSpike.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\Scripts\\PopUpSpike.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:00:00.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAcwPkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T18:59:33.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MovingPlatformTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\MovingPlatformTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\Scripts\\MovingPlatformTrigger.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\MovingPlatformTrigger.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\Scripts\\MovingPlatformTrigger.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAowHkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T18:58:53.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LevelDoor.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\LevelDoor.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\Scripts\\LevelDoor.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\LevelDoor.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\Scripts\\LevelDoor.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T18:58:06.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DestroyAfterTime.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\DestroyAfterTime.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\Scripts\\DestroyAfterTime.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\DestroyAfterTime.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\Scripts\\DestroyAfterTime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T18:57:48.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DeathTauntSystem.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\DeathTauntSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\Scripts\\DeathTauntSystem.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\DeathTauntSystem.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\Scripts\\DeathTauntSystem.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAowG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T18:57:26.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeathCounterUI.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\DeathCounterUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\Scripts\\DeathCounterUI.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\DeathCounterUI.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\Scripts\\DeathCounterUI.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA7wDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T18:57:05.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cursor.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\Cursor.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\Scripts\\Cursor.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\Cursor.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\Scripts\\Cursor.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T18:56:46.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\Scripts\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\Scripts\\CameraFollow.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T18:56:22.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BassBloomPulse.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\BassBloomPulse.cs",
+              "RelativeDocumentMoniker": "Assets\\Edgar\u0027s Work\\Scripts\\BassBloomPulse.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\GitHub\\Game_Prototyping\\Prototype 1\\my project\\Assets\\Edgar\u0027s Work\\Scripts\\BassBloomPulse.cs",
+              "RelativeToolTip": "Assets\\Edgar\u0027s Work\\Scripts\\BassBloomPulse.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAswKQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T18:55:59.391Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
