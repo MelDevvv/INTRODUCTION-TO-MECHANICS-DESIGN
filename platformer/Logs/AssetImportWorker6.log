@@ -1,0 +1,1156 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-edgar" at "2026-10-27T20:26:21.7203245Z"
+Built from '6000.3/staging' branch; Version is '6000.3.21f1 (c02631ffc030) revision 12592689'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32665 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-27T20:26:21Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 22552, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              37d9e5ffdf5f4ca5b70b27257a90584e
+  Correlation Id:          070923cd022c1cde7fdbf745e096c06b
+  External correlation Id: 5457054673795212258
+  Machine Id:              gRrhJjxWoT1JuF56KWHhYZ/28CQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-edgar" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-edgar-notifications" at "2026-10-27T20:26:21.7749372Z"
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/edgar/OneDrive/Documents/UNI WORK/INTRODUCTION-TO-MECHANICS-DESIGN/platformer
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+49904
+-parentPid
+12188
+-analyticsCloudUserId
+5774046598014
+-analyticsCloudProjectId
+2690eda4-a4f8-41f5-9378-752a6f9ac08c
+-analyticsLocalProjectId
+d6550f02d14c43c40a8d1bd3ece752f6
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+2667ca2bb0f39a05a87081e985251f2816c55d37
+-cbmMachineId
+gRrhJjxWoT1JuF56KWHhYZ/28CQ=
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/edgar/OneDrive/Documents/UNI WORK/INTRODUCTION-TO-MECHANICS-DESIGN/platformer
+C:/Users/edgar/OneDrive/Documents/UNI WORK/INTRODUCTION-TO-MECHANICS-DESIGN/platformer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [31116]  Target information:
+
+Player connection [31116]  * "[IP] 192.168.0.63 [Port] 0 [Flags] 2 [Guid] 3915381939 [EditorId] 3915381939 [Version] 1048832 [Id] WindowsEditor(7,EdgarsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31116] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31116] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 7.93 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.21f1 (c02631ffc030)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/edgar/OneDrive/Documents/UNI WORK/INTRODUCTION-TO-MECHANICS-DESIGN/platformer/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5070 Ti (ID=0x2c05)
+    Vendor:          NVIDIA
+    VRAM:            15997 MB
+    App VRAM Budget: 15229 MB
+    Driver:          32.0.16.1088
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003605 seconds.
+- Loaded All Assemblies, in  0.541 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.510 seconds
+Domain Reload Profiling: 1046ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (171ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (204ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (511ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (451ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (64ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5774046598014-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Curl error 3: URL rejected: Malformed input to a URL function
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.089 seconds
+Refreshing native plugins compatible for Editor in 3.27 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 3.21 ms, found 5 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.956 seconds
+Domain Reload Profiling: 2033ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (758ms)
+		LoadAssemblies (524ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (356ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (223ms)
+			BuildScriptInfoCaches (99ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (957ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (777ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (193ms)
+			ProcessInitializeOnLoadAttributes (418ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.68 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 7200 unused Assets / (5.4 MB). Loaded Objects now: 7995.
+Memory consumption went from 169.4 MB to 164.0 MB.
+Total: 19.921900 ms (FindLiveObjects: 1.244200 ms CreateObjectMapping: 2.242300 ms MarkObjects: 10.008900 ms  DeleteObjects: 6.424000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3193738.845185 seconds.
+  path: Packages/com.unity.collections/Unity.Collections/UnsafeRingQueue.cs
+  artifactKey: Guid(1aaf054a8897c4b4684f81b97eab06ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections/UnsafeRingQueue.cs using Guid(1aaf054a8897c4b4684f81b97eab06ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '34720143fe2a8be430ce0952f71078b1') in 0.0994629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.Tests/NativeHashSetTests.tt
+  artifactKey: Guid(bead43d474a87b742a2b136a8b41e26b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.Tests/NativeHashSetTests.tt using Guid(bead43d474a87b742a2b136a8b41e26b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0bf21e1e3cf2409d3f972b5593aa8a68') in 0.0125447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.PerformanceTests/ParallelHashMapPerformanceTests.cs
+  artifactKey: Guid(646d50e1f45e86d4ea1fe9bfc488b347) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.PerformanceTests/ParallelHashMapPerformanceTests.cs using Guid(646d50e1f45e86d4ea1fe9bfc488b347) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ec287158fb25719ee0cb2f87f45bb5e') in 0.0103811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.Tests/GcAllocRecorderTest.cs
+  artifactKey: Guid(58905de7f0380435aa51db1472b48ca8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.Tests/GcAllocRecorderTest.cs using Guid(58905de7f0380435aa51db1472b48ca8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c326f868f6bcfe666b63980606e1a806') in 0.0120545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.Tests/NativeParallelHashMapTests_InJobs.cs
+  artifactKey: Guid(c30fe0e64fef64239b70bb447e82e4a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.Tests/NativeParallelHashMapTests_InJobs.cs using Guid(c30fe0e64fef64239b70bb447e82e4a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f16dc2f71cc1a57bfa421da255a2771e') in 0.012253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.Tests/ConcurrentMaskTests.cs
+  artifactKey: Guid(b21a3382971974da1b398c348949244e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.Tests/ConcurrentMaskTests.cs using Guid(b21a3382971974da1b398c348949244e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '139960fb99f6ce6a4275b7766424ea4e') in 0.0111329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.Tests/UnsafeRingQueueTests.cs
+  artifactKey: Guid(885d383951746604982b43fd5255f058) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.Tests/UnsafeRingQueueTests.cs using Guid(885d383951746604982b43fd5255f058) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7729d3bdf897a7b656fdc6e7c894a647') in 0.0122105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.Tests/NativeListTests.cs
+  artifactKey: Guid(f492edc6c73b74b7f994f4e948d53302) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.Tests/NativeListTests.cs using Guid(f492edc6c73b74b7f994f4e948d53302) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b526e7fe6f3dcb84c92519cfc0730552') in 0.0109655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.PerformanceTests/RewindableAllocatorPerformanceTests.cs
+  artifactKey: Guid(d438077bfbb9810469c3c896a295855a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.PerformanceTests/RewindableAllocatorPerformanceTests.cs using Guid(d438077bfbb9810469c3c896a295855a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'abaa9550d9ca41b0c29dfa98015352bc') in 0.0107964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.Tests/FixedStringTests.cs
+  artifactKey: Guid(6936a9e20fa254433b9c06424258e80c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.Tests/FixedStringTests.cs using Guid(6936a9e20fa254433b9c06424258e80c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3988dc99d491fa50a1f607f7b588a4d9') in 0.0097507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.PerformanceTests/QueueParallelPerformanceTests.cs
+  artifactKey: Guid(d625a8f5b6435b040873e7fe625dbbf8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.PerformanceTests/QueueParallelPerformanceTests.cs using Guid(d625a8f5b6435b040873e7fe625dbbf8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d560ddd2ee9c794caa4619a631e8e47') in 0.0138217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.Tests/NativeSortTests.gen.cs
+  artifactKey: Guid(ff0ba7aa14bc81c4cb4b1c28cd3460ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.Tests/NativeSortTests.gen.cs using Guid(ff0ba7aa14bc81c4cb4b1c28cd3460ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a83c92b41042a50f0cf2817e2c40667') in 0.011661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.PerformanceTests/QueuePerformanceTests.cs
+  artifactKey: Guid(b9cafe65ae4b7c5408e16a4d9eeeb599) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.PerformanceTests/QueuePerformanceTests.cs using Guid(b9cafe65ae4b7c5408e16a4d9eeeb599) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27bd8fe0bcca5f6bd76e2f95a196d0f7') in 0.0104968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.PerformanceTests/UnsafeListPerformanceTests.cs
+  artifactKey: Guid(b672a3eb87f4b4445a169c2d003fcbd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.PerformanceTests/UnsafeListPerformanceTests.cs using Guid(b672a3eb87f4b4445a169c2d003fcbd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '13c2bcdece8128ebea3edfdc3d37e626') in 0.0117564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.collections/Unity.Collections/UnsafeUtilityEx.cs
+  artifactKey: Guid(656438ffe79c94447bf483cf17d90bf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections/UnsafeUtilityEx.cs using Guid(656438ffe79c94447bf483cf17d90bf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '178511595af3dc609af4e817d18acc2d') in 0.0103808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Culling/IClipRegion.cs
+  artifactKey: Guid(371b6b9c8adc50745ace66a6fdf67481) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Culling/IClipRegion.cs using Guid(371b6b9c8adc50745ace66a6fdf67481) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f9aaa6eab669f33cce01bcf1add9b2e') in 0.0132495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.collections/Unity.Collections/FixedStringFormatMethods.gen.cs
+  artifactKey: Guid(89f65fb005504fceb04727480e65f16c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections/FixedStringFormatMethods.gen.cs using Guid(89f65fb005504fceb04727480e65f16c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '498d0fb1f6447ad116a2792af2b49364') in 0.0103776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.Tests/CustomContainerTests.cs
+  artifactKey: Guid(7d464d1935bb3084cbed9d87692699cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.Tests/CustomContainerTests.cs using Guid(7d464d1935bb3084cbed9d87692699cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8077ef7086090d479f3b6b3995d97745') in 0.012252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.Tests/NativeHashSetTests.cs
+  artifactKey: Guid(f92c32975f7059949a65dedf00f850c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.Tests/NativeHashSetTests.cs using Guid(f92c32975f7059949a65dedf00f850c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7eae4ec47bbfcdad48f6dc809c5c58b') in 0.0122263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.PerformanceTests/ListPerformanceTests.cs
+  artifactKey: Guid(38714c3d9f5dd4b4ba7fb2fd79dca07d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.PerformanceTests/ListPerformanceTests.cs using Guid(38714c3d9f5dd4b4ba7fb2fd79dca07d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72281e5213812d0d83062fb4e451fc3d') in 0.0106427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.collections/Unity.Collections/UnsafeHashSet.cs
+  artifactKey: Guid(92809129fe1cd814cb1c8239cdafb470) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections/UnsafeHashSet.cs using Guid(92809129fe1cd814cb1c8239cdafb470) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '855a3d7ac509d295efd0dd87b84ac0c6') in 0.01369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/UI/TilePaletteClipboardButton.cs
+  artifactKey: Guid(6fdcfff56bbd49c4bb9843e21b6b386a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/UI/TilePaletteClipboardButton.cs using Guid(6fdcfff56bbd49c4bb9843e21b6b386a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd87aaded1e7008c8180b9b3882446778') in 0.0125466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/GridSelection.png
+  artifactKey: Guid(a60e09d7c2452be4c824d4eb480c91c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/GridSelection.png using Guid(a60e09d7c2452be4c824d4eb480c91c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cfd5f1e7ea1996b2e8d250694018afa4') in 0.0598688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.ugui/Editor/UGUI/UI/PropertyDrawers/AnimationTriggersDrawer.cs
+  artifactKey: Guid(c18288a8d31fc9043a807ee8a9f1ae64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.ugui/Editor/UGUI/UI/PropertyDrawers/AnimationTriggersDrawer.cs using Guid(c18288a8d31fc9043a807ee8a9f1ae64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e292cb0f493e2ad0bfaf29e06ca90a4') in 0.0156851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.ugui/Editor/TMP/TMP_FontAsset_CreationMenu.cs
+  artifactKey: Guid(7496af95dfe67cf429ac65edaaf99106) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.ugui/Editor/TMP/TMP_FontAsset_CreationMenu.cs using Guid(7496af95dfe67cf429ac65edaaf99106) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c4afd1075ed60c286975d4a8212bfc9') in 0.0102807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.49 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7184 unused Assets / (4.2 MB). Loaded Objects now: 7998.
+Memory consumption went from 167.9 MB to 163.7 MB.
+Total: 12.720500 ms (FindLiveObjects: 0.985600 ms CreateObjectMapping: 1.398300 ms MarkObjects: 6.611200 ms  DeleteObjects: 3.723800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.218070 seconds.
+  path: Packages/com.unity.mathematics/Unity.Mathematics/float2x4.gen.cs
+  artifactKey: Guid(70c2d51ac2a824bdb88b239c4fa6122c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Unity.Mathematics/float2x4.gen.cs using Guid(70c2d51ac2a824bdb88b239c4fa6122c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e2e803d25ec6e2a1be51f8255d2b7e6') in 0.0130772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.mathematics/Unity.Mathematics/double2x4.gen.cs
+  artifactKey: Guid(3e21dd148ae3e4bf98a4042d4756c4db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Unity.Mathematics/double2x4.gen.cs using Guid(3e21dd148ae3e4bf98a4042d4756c4db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e04b21912de299a4044893de984d5ea') in 0.0122775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.mathematics/Tests/Tests/Shared/TestBool3x3.gen.cs
+  artifactKey: Guid(16fef77cdd788b54983aea9d37b2efb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Tests/Tests/Shared/TestBool3x3.gen.cs using Guid(16fef77cdd788b54983aea9d37b2efb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c564cd589d88ad0770a9cab1cbf5cd37') in 0.0126663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.mathematics/Unity.Mathematics/Noise/common.cs
+  artifactKey: Guid(e99a8e417be944dfaad14c2d60f8450d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Unity.Mathematics/Noise/common.cs using Guid(e99a8e417be944dfaad14c2d60f8450d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bfe0e1abfd4270c90827339d0cb1bf0f') in 0.0122808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.mathematics/Unity.Mathematics/uint3x3.gen.cs
+  artifactKey: Guid(c1262616ca00349c28426545d8525266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Unity.Mathematics/uint3x3.gen.cs using Guid(c1262616ca00349c28426545d8525266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9c6f22f7c508b67b66ecbbb79555ab5c') in 0.0204185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.PerformanceTests/Unity.PerformanceTesting.Benchmark/BenchmarkMeasure.cs
+  artifactKey: Guid(e4a19cfe5da4ca3429f6c911cb0b9894) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.PerformanceTests/Unity.PerformanceTesting.Benchmark/BenchmarkMeasure.cs using Guid(e4a19cfe5da4ca3429f6c911cb0b9894) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dea345d1374a0d1b3dade6c6a432780f') in 0.0125539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.mathematics/Unity.Mathematics/bool4.gen.cs
+  artifactKey: Guid(64216725f837f8345b407a998b4970b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Unity.Mathematics/bool4.gen.cs using Guid(64216725f837f8345b407a998b4970b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '64a7966e52d4a04599d25de81c85939e') in 0.0132359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.mathematics/Unity.Mathematics/uint4x4.gen.cs
+  artifactKey: Guid(1878454c2f73547909bfcea105ffd941) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Unity.Mathematics/uint4x4.gen.cs using Guid(1878454c2f73547909bfcea105ffd941) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '361ca83e0c2de9ebe6cba17dc3511eeb') in 0.0125619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.mathematics/Tests/Tests/Shared/TestAffineTransform.cs
+  artifactKey: Guid(534e18de5e70ccf468bf46c917dfdac4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Tests/Tests/Shared/TestAffineTransform.cs using Guid(534e18de5e70ccf468bf46c917dfdac4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dae4016281f0c94981e4ba76d62c7ac7') in 0.0112794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.collections/Unity.Collections/Jobs/EarlyInitHelpers.cs
+  artifactKey: Guid(05a99ad2800ad2f49b22ab35d999bfc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections/Jobs/EarlyInitHelpers.cs using Guid(05a99ad2800ad2f49b22ab35d999bfc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1fbd8304f4607fc2a44b35508c0ec648') in 0.011302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.mathematics/Tests/Tests/Shared/TestBool2x2.gen.cs
+  artifactKey: Guid(8ffa916172073c14499f3e88e1ddaccc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Tests/Tests/Shared/TestBool2x2.gen.cs using Guid(8ffa916172073c14499f3e88e1ddaccc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5553d792b078bce2398608ec63b0d417') in 0.0118812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.mathematics/Unity.Mathematics/half.cs
+  artifactKey: Guid(a513f9316035e1649a644c2e9f69c12a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Unity.Mathematics/half.cs using Guid(a513f9316035e1649a644c2e9f69c12a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa8e2d1f1742c72c2be6d4d96fc42726') in 0.0272171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.mathematics/Unity.Mathematics/quaternion.cs
+  artifactKey: Guid(a8481bb868ae344e9b4a5551a11483d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Unity.Mathematics/quaternion.cs using Guid(a8481bb868ae344e9b4a5551a11483d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2567ed5f219f1375961788c79994e98') in 0.0122696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.mathematics/Unity.Mathematics/double4x3.gen.cs
+  artifactKey: Guid(673ff09d67f254e00a538d7bbb41618e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Unity.Mathematics/double4x3.gen.cs using Guid(673ff09d67f254e00a538d7bbb41618e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '695078927d0e94674d6b70a2128286f7') in 0.0115679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.mathematics/Unity.Mathematics/matrix.cs
+  artifactKey: Guid(e378472eca9810946b664b8ff70f4edf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Unity.Mathematics/matrix.cs using Guid(e378472eca9810946b664b8ff70f4edf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1513b3e45e1d150cab22d31229d34971') in 0.0108528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.mathematics/Tests/Tests/Shared/TestBool4x2.gen.cs
+  artifactKey: Guid(c7ec685ec2ccae14a851a50b1bcbebfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Tests/Tests/Shared/TestBool4x2.gen.cs using Guid(c7ec685ec2ccae14a851a50b1bcbebfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1eebe87a920482f1fb6a046d60045aed') in 0.0103893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.mathematics/Unity.Mathematics/int2.gen.cs
+  artifactKey: Guid(29938ef4dca90ce47ae640695d8b1c9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Unity.Mathematics/int2.gen.cs using Guid(29938ef4dca90ce47ae640695d8b1c9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9d55cc7d9058e2cac40f312d08f5fd0') in 0.0111155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.mathematics/Unity.Mathematics/math.cs
+  artifactKey: Guid(a54902d8339407348996f4a12702eaff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Unity.Mathematics/math.cs using Guid(a54902d8339407348996f4a12702eaff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2de861b8955b0b6cb2b6e2e9cf2961ce') in 0.0136542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.collections/Unity.Collections.PerformanceTests/Unity.PerformanceTesting.Benchmark/BenchmarkGenerator.cs
+  artifactKey: Guid(d0fbdee3cefe411478fe3cd19d0b0edf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collections/Unity.Collections.PerformanceTests/Unity.PerformanceTesting.Benchmark/BenchmarkGenerator.cs using Guid(d0fbdee3cefe411478fe3cd19d0b0edf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1472fd2a04461cfd1a4fbae06812b97f') in 0.0105793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.mathematics/Unity.Mathematics/int3x2.gen.cs
+  artifactKey: Guid(6ddb7ba42f65c4292afd32dd847c8d3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Unity.Mathematics/int3x2.gen.cs using Guid(6ddb7ba42f65c4292afd32dd847c8d3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5b4c24c53fe30c0d674d2e0df6c389a') in 0.0115626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.mathematics/Tests/Tests/TestRandom.cs
+  artifactKey: Guid(ec2e0d8c659a52a45b0bd4f7a3d3981a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Tests/Tests/TestRandom.cs using Guid(ec2e0d8c659a52a45b0bd4f7a3d3981a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa9d566a4a012ff9db675e512d698db7') in 0.0099688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.mathematics/Unity.Mathematics/bool4x2.gen.cs
+  artifactKey: Guid(d34b6dd47888145b8870e017d6c84d4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Unity.Mathematics/bool4x2.gen.cs using Guid(d34b6dd47888145b8870e017d6c84d4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9c267bae32006ae4071f4acbd29b98c7') in 0.0140654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.mathematics/Unity.Mathematics/half2.gen.cs
+  artifactKey: Guid(79785f1f327add947b5448161b8ddc4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Unity.Mathematics/half2.gen.cs using Guid(79785f1f327add947b5448161b8ddc4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e6820604d50f02c8b9b8bf8f802f469') in 0.0143099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.mathematics/Tests/Tests/Shared/TestBool3.gen.cs
+  artifactKey: Guid(d208b4e1c03551a499e9169aac737e5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Tests/Tests/Shared/TestBool3.gen.cs using Guid(d208b4e1c03551a499e9169aac737e5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11b9314a77a0e0004825cd85f09521b4') in 0.0214913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.mathematics/LICENSE.md
+  artifactKey: Guid(a7f87992cd1d44040ae42b05e5fbdaa5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/LICENSE.md using Guid(a7f87992cd1d44040ae42b05e5fbdaa5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '431102750f2b4a2664d1f8f95629086a') in 0.0245693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.897933 seconds.
+  path: Packages/com.unity.mathematics/Tests/Tests/Shared/TestDouble3x3.gen.cs
+  artifactKey: Guid(4971c82bdb64ccb49b92ffe0a2d2c59a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.mathematics/Tests/Tests/Shared/TestDouble3x3.gen.cs using Guid(4971c82bdb64ccb49b92ffe0a2d2c59a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd62f83e8b2e666616dcec3ffbec66f8e') in 0.0145079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.modules.ui/package.ModuleCompilationTrigger
+  artifactKey: Guid(51fa60bb2bd1e5bc74e8cc95a7bfd5b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.modules.ui/package.ModuleCompilationTrigger using Guid(51fa60bb2bd1e5bc74e8cc95a7bfd5b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2d18f299d7813a80b08f914da901d1c') in 0.0119468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.2d.common/Editor/AssemblyInfo.cs
+  artifactKey: Guid(cb006e3fa37420b42b3673eef90cd4b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.common/Editor/AssemblyInfo.cs using Guid(cb006e3fa37420b42b3673eef90cd4b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb85a51ae8ac869262398986f586d66b') in 0.0125662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.2d.common/Path/Editor/IMGUI/GUIFramework/GUISystem.cs
+  artifactKey: Guid(5dd95a18e912b4e33a402203d4c12278) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.common/Path/Editor/IMGUI/GUIFramework/GUISystem.cs using Guid(5dd95a18e912b4e33a402203d4c12278) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '541507584bde6d5a52123374ab3d6354') in 0.0103125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.2d.common/Path/Editor/Unity.2D.Common.Path.Editor.asmdef
+  artifactKey: Guid(24bbfa70f4a5840c3ab7da95e6835815) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.common/Path/Editor/Unity.2D.Common.Path.Editor.asmdef using Guid(24bbfa70f4a5840c3ab7da95e6835815) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8989e41a77e7da79aab6df94dc6f6dad') in 0.0156336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.337 seconds
+Refreshing native plugins compatible for Editor in 4.75 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.124 seconds
+Domain Reload Profiling: 2451ms
+	BeginReloadAssembly (335ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (870ms)
+		LoadAssemblies (672ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (354ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (317ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1124ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (873ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (234ms)
+			ProcessInitializeOnLoadAttributes (505ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 4.96 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7199 unused Assets / (4.7 MB). Loaded Objects now: 8002.
+Memory consumption went from 171.1 MB to 166.4 MB.
+Total: 17.728100 ms (FindLiveObjects: 1.492900 ms CreateObjectMapping: 1.886300 ms MarkObjects: 9.677300 ms  DeleteObjects: 4.670000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.09 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7184 unused Assets / (4.6 MB). Loaded Objects now: 8002.
+Memory consumption went from 173.7 MB to 169.1 MB.
+Total: 16.949800 ms (FindLiveObjects: 1.512400 ms CreateObjectMapping: 1.625000 ms MarkObjects: 8.989500 ms  DeleteObjects: 4.821500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.320 seconds
+Refreshing native plugins compatible for Editor in 3.20 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.783 seconds
+Domain Reload Profiling: 2095ms
+	BeginReloadAssembly (321ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (862ms)
+		LoadAssemblies (645ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (365ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (326ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (783ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (622ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.66 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7199 unused Assets / (4.7 MB). Loaded Objects now: 8005.
+Memory consumption went from 176.2 MB to 171.5 MB.
+Total: 12.352100 ms (FindLiveObjects: 1.415700 ms CreateObjectMapping: 1.684100 ms MarkObjects: 6.243300 ms  DeleteObjects: 3.008000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.102968 seconds.
+  path: Assets/map/tilemap_1.asset
+  artifactKey: Guid(9948c8e3567466648b03b2c2e20e30ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/tilemap_1.asset using Guid(9948c8e3567466648b03b2c2e20e30ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6921dff42b852b814720c10df44af8b3') in 0.1319115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/map/tilemap_21.asset
+  artifactKey: Guid(ea771ea58d7de6d47b5531cbe400924a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/tilemap_21.asset using Guid(ea771ea58d7de6d47b5531cbe400924a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1ff5a305067aa89e05d838305a2f802') in 0.0146837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/map/tilemap_14.asset
+  artifactKey: Guid(8290449721dde8142a95eedff616fd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/tilemap_14.asset using Guid(8290449721dde8142a95eedff616fd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcc746ce3a144d54e8b6b822ea0eb430') in 0.013167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/map/tilemap_24.asset
+  artifactKey: Guid(0c1dfefaf17018144bbd6a5ff755e2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/tilemap_24.asset using Guid(0c1dfefaf17018144bbd6a5ff755e2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdbaadcbc0f67ea061371102ebaeb867') in 0.0142075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/map/tilemap_32.asset
+  artifactKey: Guid(cce310032441ce94285f733414c491b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/tilemap_32.asset using Guid(cce310032441ce94285f733414c491b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55d8dc84034be33a968712780649b80c') in 0.0144883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/map/tilemap_23.asset
+  artifactKey: Guid(25f04a1177fc72a4c8a5a3f82eacb0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/tilemap_23.asset using Guid(25f04a1177fc72a4c8a5a3f82eacb0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f49691c980d40a4dd044151afb66d627') in 0.0133072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/map/tilemap_11.asset
+  artifactKey: Guid(a75c03dd8a330be4983fe8649090e8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/tilemap_11.asset using Guid(a75c03dd8a330be4983fe8649090e8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59f0d6e8e26e171413daade1a60827f6') in 0.0140999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/map/tilemap_49.asset
+  artifactKey: Guid(f8a30d5c45c88d8429b9e61cfb133119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/tilemap_49.asset using Guid(f8a30d5c45c88d8429b9e61cfb133119) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4896cae2c39c29f149dd121d1876e417') in 0.0135989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/map/tilemap_22.asset
+  artifactKey: Guid(ca3f1e65228669347b6b90caaa6f5c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/tilemap_22.asset using Guid(ca3f1e65228669347b6b90caaa6f5c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1e5df950c081e318146592435094649') in 0.0163413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/map/tilemap_42.asset
+  artifactKey: Guid(d94766bbe24912e408f5a7e4738eae28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/tilemap_42.asset using Guid(d94766bbe24912e408f5a7e4738eae28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9052efc41bce346b3f534010b8fb91b') in 0.0146621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/map/tilemap_26.asset
+  artifactKey: Guid(25d24ca73c7255f429d1326d4fd4820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/tilemap_26.asset using Guid(25d24ca73c7255f429d1326d4fd4820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '065d116ec87b880544fe42c66e4052ed') in 0.0137026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.300810 seconds.
+  path: Assets/tilemap/SampleB.png
+  artifactKey: Guid(fd56011ead87fe243a2f42a83a38591a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/SampleB.png using Guid(fd56011ead87fe243a2f42a83a38591a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b47b20e21bf366b1da914e95a11ab7bd') in 0.040826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.625370 seconds.
+  path: Assets/tilemap/Tiles/tile_0002.png
+  artifactKey: Guid(9c9d529ac93ccde4296492a1bf1a0043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0002.png using Guid(9c9d529ac93ccde4296492a1bf1a0043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '825e8158de4e770a8615ff9c46e34992') in 0.0175735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/tilemap/Tiles/tile_0017.png
+  artifactKey: Guid(92ed21222280da543b43a07b95579325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0017.png using Guid(92ed21222280da543b43a07b95579325) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80cafe6bb7efd5c174485803a1f30bf4') in 0.0168665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/tilemap/Tiles/tile_0045.png
+  artifactKey: Guid(17b40715356648943ae603f569d074e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0045.png using Guid(17b40715356648943ae603f569d074e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc34b6347786c64c8fc63a5638aca68f') in 0.0180914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/tilemap/Tiles/tile_0042.png
+  artifactKey: Guid(c3b4ea2ec5b1f6e4392411d4d0b610bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0042.png using Guid(c3b4ea2ec5b1f6e4392411d4d0b610bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94fbefa6a207d5e043d09ea0e6062676') in 0.0159667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/tilemap/Tiles/tile_0028.png
+  artifactKey: Guid(7e6ebb23c95c1574cba8b13d40f21c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0028.png using Guid(7e6ebb23c95c1574cba8b13d40f21c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ba46986226d683b2fc61ec4fdbc4577') in 0.0174895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/tilemap/Tiles/tile_0033.png
+  artifactKey: Guid(6d8d2f52b6cb58044be67d87b2460a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0033.png using Guid(6d8d2f52b6cb58044be67d87b2460a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfae359433719ad6004ce28217e60f12') in 0.0164808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/tilemap/Tiles/tile_0031.png
+  artifactKey: Guid(13c7c02d3167c25409ed89f774ba237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0031.png using Guid(13c7c02d3167c25409ed89f774ba237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '863c26db38bc1038cf2707f4feea5a76') in 0.0165345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/tilemap/Tiles/tile_0035.png
+  artifactKey: Guid(581412206ce92684ba9f7870ebd06ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0035.png using Guid(581412206ce92684ba9f7870ebd06ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '410d881981f2da6a173e33b765ee6e00') in 0.0173731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/tilemap/Tiles/tile_0008.png
+  artifactKey: Guid(6ecb5fc9e5941e7489d514cace9ca59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0008.png using Guid(6ecb5fc9e5941e7489d514cace9ca59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7e8e46cd1a1512d8178b10201af263c') in 0.0176579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/tilemap/Tiles/tile_0051.png
+  artifactKey: Guid(c676a6a537635494dab964ae4226aad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0051.png using Guid(c676a6a537635494dab964ae4226aad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14c1e2ba3f80af4e66597ee9be8f615e') in 0.0168671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.816542 seconds.
+  path: Assets/tilemap/Tiles/tile_0058.png
+  artifactKey: Guid(5190ca5680172cf41b1ca4a800787556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0058.png using Guid(5190ca5680172cf41b1ca4a800787556) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b150a06dfa93c0f541027fcd66f915d3') in 0.0194358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/tilemap/Tiles/tile_0065.png
+  artifactKey: Guid(0c7cdb09173327540b4f5d44922666bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0065.png using Guid(0c7cdb09173327540b4f5d44922666bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f956989272f4b88de1acaf3e0e4053ab') in 0.0175748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/tilemap/Tiles/tile_0101.png
+  artifactKey: Guid(109729b7769fcad478b9d905bc40779d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0101.png using Guid(109729b7769fcad478b9d905bc40779d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4b95acd0d8dc71b0d859f7dfa1dc8ee') in 0.0152287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/tilemap/Tiles/tile_0128.png
+  artifactKey: Guid(3bfa0eaf64f08e641affbfdc01c521ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0128.png using Guid(3bfa0eaf64f08e641affbfdc01c521ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b20a15f2bec042f264a089ea1d201aa') in 0.0176534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/tilemap/Tiles/tile_0084.png
+  artifactKey: Guid(bfce2cb4d8df80b4ab3a8de81af6d404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0084.png using Guid(bfce2cb4d8df80b4ab3a8de81af6d404) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '259d71e7b49947c1c62011078b463118') in 0.0178027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/tilemap/Tiles/tile_0080.png
+  artifactKey: Guid(42861f0dcb7a0ee4884005e117300d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0080.png using Guid(42861f0dcb7a0ee4884005e117300d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d19b3fadacf1aef1759e6af72df9ca5') in 0.0153674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/tilemap/Tiles/tile_0076.png
+  artifactKey: Guid(d8ae6e11d4176b04ea22fcdcf39454e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0076.png using Guid(d8ae6e11d4176b04ea22fcdcf39454e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9de8127161eb23858bcc8c8b1f9d5335') in 0.0164276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/tilemap/Tiles/tile_0149.png
+  artifactKey: Guid(62b34d817f1a85a42897d126f82cf005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0149.png using Guid(62b34d817f1a85a42897d126f82cf005) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7a13feca0ace9eb418cbd08b283fbe6') in 0.0160257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/tilemap/Tiles/tile_0165.png
+  artifactKey: Guid(2d69516099bbbce439353a20ec9aa8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0165.png using Guid(2d69516099bbbce439353a20ec9aa8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a34aedd9a326d82e507b12128c10efe6') in 0.0184402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/tilemap/Tiles/tile_0164.png
+  artifactKey: Guid(15dc07264214d9445b2c1866b8b4cf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0164.png using Guid(15dc07264214d9445b2c1866b8b4cf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4499a83fe039dbf4f846cef8ea5e4024') in 0.0158998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/tilemap/Tiles/tile_0143.png
+  artifactKey: Guid(9b0bfc90a601ebb428b1754fff972455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0143.png using Guid(9b0bfc90a601ebb428b1754fff972455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53d8f5ecabcb1c9521edd0ee775701d7') in 0.0155357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/tilemap/Tiles/tile_0136.png
+  artifactKey: Guid(66bc3b2a2d70fdc45b962bd11ad21271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0136.png using Guid(66bc3b2a2d70fdc45b962bd11ad21271) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5364ae66966923ad93c66de93c96041d') in 0.0189226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/tilemap/Tiles/tile_0153.png
+  artifactKey: Guid(e8b66d37cb72c9e44b0d1400aa5946c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0153.png using Guid(e8b66d37cb72c9e44b0d1400aa5946c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08804fddef121644b57c60de4dfbbf18') in 0.018711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/tilemap/Tiles/tile_0158.png
+  artifactKey: Guid(25fe5d130232f0947a70cbb28b463af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0158.png using Guid(25fe5d130232f0947a70cbb28b463af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a05a5ed8dbcd9ef1da0a0c2456dba960') in 0.0159489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/tilemap/Tiles/tile_0152.png
+  artifactKey: Guid(3c84e4bb4eb038041ba2170bfff682df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0152.png using Guid(3c84e4bb4eb038041ba2170bfff682df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1618f3ddd5127a0b8ae99142a89997de') in 0.019052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/tilemap/Tiles/tile_0132.png
+  artifactKey: Guid(1be3ae5b7814c904db1901f5cd11d536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0132.png using Guid(1be3ae5b7814c904db1901f5cd11d536) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b426a6e7094e4c5e2ad2dd8f81fdb85') in 0.0170571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/tilemap/Tiles/tile_0079.png
+  artifactKey: Guid(d26c4103c51f3cb43b3b15f8556d1a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0079.png using Guid(d26c4103c51f3cb43b3b15f8556d1a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dae694165aeb975c4cc670f556175536') in 0.0159958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/tilemap/Tiles/tile_0135.png
+  artifactKey: Guid(55db380fd95c38148a29138a24e2477b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0135.png using Guid(55db380fd95c38148a29138a24e2477b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fd26be22ca42ecbc09d78985d274776') in 0.0178506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/tilemap/Tiles/tile_0146.png
+  artifactKey: Guid(32d309d984939894a82e2d3773d6d604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0146.png using Guid(32d309d984939894a82e2d3773d6d604) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38fe68eacb08efdeeb64983218d335ef') in 0.0189052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/tilemap/Tiles/tile_0062.png
+  artifactKey: Guid(f3565f5dc8649e449b83e5c9b642001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tiles/tile_0062.png using Guid(f3565f5dc8649e449b83e5c9b642001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faf2638c606399545c9a00edae7d15bf') in 0.0171446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.408410 seconds.
+  path: Assets/tilemap/Tilemap/tilemap-backgrounds_packed.png
+  artifactKey: Guid(98e5644c062253242b80b229f39aa058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tilemap/Tilemap/tilemap-backgrounds_packed.png using Guid(98e5644c062253242b80b229f39aa058) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19e54b4b18001a65a27094e82ad6fbc5') in 0.0188542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

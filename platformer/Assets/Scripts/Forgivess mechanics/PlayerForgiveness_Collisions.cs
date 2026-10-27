@@ -37,9 +37,24 @@ public partial class PlayerController
     [SerializeField, Range(0.03f, 0.25f)]
     private float cornerNudgeCooldown = 0.10f;
 
-    [Tooltip("Small upward probe distance used to stop a head bump just before penetration.")]
-    [SerializeField, Range(0.01f, 0.12f)]
+    [Tooltip("Minimum upward cast distance used to detect a ceiling before the player penetrates it.")]
+    [SerializeField, Range(0.01f, 0.30f)]
     private float headBumpProbeDistance = 0.055f;
+
+    [Header("Editable Head-Bump Probe")]
+    [Tooltip("Draw the head-bump probe and its cast path in the Scene view.")]
+    [SerializeField] private bool showHeadBumpProbeGizmo = true;
+
+    [Tooltip("Probe width as a fraction of the player's main collider width. Reduce it to avoid catching side corners; increase it for wider ceiling detection.")]
+    [SerializeField, Range(0.15f, 1.10f)]
+    private float headBumpProbeWidthMultiplier = 0.86f;
+
+    [Tooltip("Probe box height in world units. Increase slightly if very thin ceilings are missed.")]
+    [SerializeField, Range(0.01f, 0.20f)]
+    private float headBumpProbeThickness = 0.04f;
+
+    [Tooltip("Move the probe relative to the top-centre of the player's main collider. X moves left/right; Y moves up/down. Values are in world units.")]
+    [SerializeField] private Vector2 headBumpProbeOffset = new Vector2(0f, 0.005f);
 
     private float nextCornerNudgeTime;
 
@@ -462,18 +477,22 @@ public partial class PlayerController
             rb.linearVelocity.y <= headBumpMinimumUpwardSpeed)
             return;
 
-        // Cast a thin box just above the player's head, not the entire body.
-        // The distance adapts to upward speed so fast jumps cannot travel past
-        // the short probe between physics steps.
         Bounds bounds = playerCollider.bounds;
-        float probeThickness = Mathf.Max(0.015f, Mathf.Min(0.04f, bounds.size.y * 0.08f));
-        float headGap = 0.005f;
-        Vector2 probeSize = new Vector2(
-            Mathf.Max(0.03f, bounds.size.x * 0.86f),
-            probeThickness);
+        float probeWidth = Mathf.Max(
+            0.03f,
+            bounds.size.x * Mathf.Clamp(headBumpProbeWidthMultiplier, 0.15f, 1.10f));
+        float probeThickness = Mathf.Max(0.01f, headBumpProbeThickness);
+
+        // The probe position is editable relative to the top-centre of the solid
+        // player collider. A positive X offset moves it right; positive Y moves
+        // it higher above the head. The exact same geometry is drawn in Scene view.
+        Vector2 probeSize = new Vector2(probeWidth, probeThickness);
         Vector2 probeOrigin = new Vector2(
-            bounds.center.x,
-            bounds.max.y + headGap + probeThickness * 0.5f);
+            bounds.center.x + headBumpProbeOffset.x,
+            bounds.max.y + headBumpProbeOffset.y + probeThickness * 0.5f);
+
+        // Extend the cast with upward speed so a fast jump cannot pass the probe
+        // between physics updates. headBumpProbeDistance is the minimum distance.
         float distance = Mathf.Max(
             headBumpProbeDistance,
             rb.linearVelocity.y * Time.fixedDeltaTime + headBumpDetectionTolerance * 0.35f);
@@ -500,17 +519,15 @@ public partial class PlayerController
                 other.attachedRigidbody == rb)
                 continue;
 
-            // Only accept a contact under the central part of the player's head.
-            // A cast near the left/right edge can graze a wall's top corner and
-            // falsely cancel a jump that should continue up alongside the wall.
-            // Real ceiling hits remain detectable because this probe is already
-            // narrower than the player's full collider.
+            // Only accept an underside/ceiling hit, not a wall face grazed by the
+            // probe. Keep the test centred on the editable probe instead of the
+            // full player bounds so moving the probe also moves the detection area.
             if (hit.normal.y > -0.55f ||
                 Mathf.Abs(hit.normal.y) < Mathf.Abs(hit.normal.x) * 1.10f)
                 continue;
 
-            float headContactHalfWidth = bounds.extents.x * 0.62f;
-            if (Mathf.Abs(hit.point.x - bounds.center.x) > headContactHalfWidth)
+            float headContactHalfWidth = probeSize.x * 0.36f;
+            if (Mathf.Abs(hit.point.x - probeOrigin.x) > headContactHalfWidth)
                 continue;
 
             StopUpwardHeadBump();
@@ -706,4 +723,52 @@ public partial class PlayerController
 
         return false;
     }
+
+    // Draw the exact head-bump BoxCast start box and cast path in the Scene view.
+    // Uses OnDrawGizmos (rather than OnDrawGizmosSelected) to coexist with the
+    // main controller's own OnDrawGizmosSelected method in another partial file.
+    private void OnDrawGizmos()
+    {
+        if (!showHeadBumpProbeGizmo)
+            return;
+
+        Collider2D gizmoCollider = playerCollider != null
+            ? playerCollider
+            : GetComponent<Collider2D>();
+        if (gizmoCollider == null)
+            return;
+
+        Bounds bounds = gizmoCollider.bounds;
+        float width = Mathf.Max(
+            0.03f,
+            bounds.size.x * Mathf.Clamp(headBumpProbeWidthMultiplier, 0.15f, 1.10f));
+        float height = Mathf.Max(0.01f, headBumpProbeThickness);
+        Vector3 startCenter = new Vector3(
+            bounds.center.x + headBumpProbeOffset.x,
+            bounds.max.y + headBumpProbeOffset.y + height * 0.5f,
+            bounds.center.z);
+        Vector3 boxSize = new Vector3(width, height, 0.01f);
+
+        Rigidbody2D gizmoRb = rb != null ? rb : GetComponent<Rigidbody2D>();
+        float castDistance = headBumpProbeDistance;
+        if (gizmoRb != null && gizmoRb.linearVelocity.y > 0f)
+        {
+            castDistance = Mathf.Max(
+                castDistance,
+                gizmoRb.linearVelocity.y * Time.fixedDeltaTime + headBumpDetectionTolerance * 0.35f);
+        }
+        castDistance = Mathf.Max(0.01f, castDistance);
+        Vector3 endCenter = startCenter + Vector3.up * castDistance;
+
+        Gizmos.color = new Color(0.1f, 0.9f, 1f, 1f);
+        Gizmos.DrawWireCube(startCenter, boxSize);
+        Gizmos.DrawLine(
+            startCenter + Vector3.left * width * 0.5f,
+            endCenter + Vector3.left * width * 0.5f);
+        Gizmos.DrawLine(
+            startCenter + Vector3.right * width * 0.5f,
+            endCenter + Vector3.right * width * 0.5f);
+        Gizmos.DrawWireCube(endCenter, boxSize);
+    }
+
 }
