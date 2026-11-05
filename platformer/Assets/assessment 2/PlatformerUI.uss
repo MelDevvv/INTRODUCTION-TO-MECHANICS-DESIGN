@@ -1,0 +1,746 @@
+/* Pixel-art platformer UI — palette sampled by eye from the supplied tileset screenshot. */
+.root {
+    flex-grow: 1;
+    overflow: hidden;
+    color: rgb(42, 51, 65);
+}
+.world-dim {
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    background-color: rgba(19, 30, 39, 0.10);
+}
+.ambient-ground {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: 9px;
+    background-color: rgb(41, 192, 130);
+    border-top-width: 3px;
+    border-top-color: rgb(34, 74, 76);
+}
+.hud {
+    position: absolute;
+    left: 24px; right: 24px; top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.brand-block {
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: rgba(37, 51, 68, 0.94);
+    border-left-width: 4px;
+    border-left-color: rgb(48, 211, 137);
+    border-bottom-width: 4px;
+    border-bottom-color: rgb(22, 34, 48);
+}
+.cube-mark {
+    width: 32px; height: 32px;
+    margin-right: 10px;
+    position: relative;
+}
+.cube-mark-top {
+    position: absolute; left: 4px; top: 0;
+    width: 24px; height: 9px;
+    background-color: rgb(90, 235, 144);
+    border-width: 2px; border-color: rgb(27, 71, 69);
+}
+.cube-mark-face {
+    position: absolute; left: 2px; top: 8px;
+    width: 19px; height: 21px;
+    background-color: rgb(42, 188, 126);
+    border-left-width: 2px; border-bottom-width: 2px;
+    border-left-color: rgb(27, 71, 69); border-bottom-color: rgb(27, 71, 69);
+}
+.cube-mark-side {
+    position: absolute; left: 19px; top: 8px;
+    width: 11px; height: 21px;
+    background-color: rgb(26, 139, 111);
+    border-right-width: 2px; border-bottom-width: 2px;
+    border-right-color: rgb(27, 71, 69); border-bottom-color: rgb(27, 71, 69);
+}
+.brand-copy { flex-direction: column; }
+.brand-title {
+    font-size: 19px;
+    -unity-font-style: bold;
+    color: rgb(255, 235, 194);
+}
+.brand-subtitle {
+    margin-top: 1px;
+    font-size: 9px;
+    color: rgb(153, 204, 178);
+}
+.hud-right { flex-direction: row; }
+.hud-stat {
+    min-width: 88px;
+    margin-left: 8px;
+    padding: 7px 12px 6px 12px;
+    background-color: rgba(37, 51, 68, 0.95);
+    border-bottom-width: 4px;
+    border-bottom-color: rgb(22, 34, 48);
+    border-top-width: 3px;
+    border-top-color: rgb(43, 191, 130);
+}
+.hud-stat-title {
+    font-size: 9px;
+    color: rgb(164, 198, 185);
+}
+.hud-stat-value {
+    margin-top: 1px;
+    font-size: 22px;
+    -unity-font-style: bold;
+    color: rgb(255, 225, 160);
+}
+.death-value { color: rgb(255, 139, 107); }
+.controls-hint {
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    translate: -50% 0;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 13px;
+    background-color: rgba(37, 51, 68, 0.92);
+    border-bottom-width: 4px;
+    border-bottom-color: rgb(22, 34, 48);
+}
+.hint-key {
+    margin-left: 5px;
+    margin-right: 7px;
+    font-size: 10px;
+    -unity-font-style: bold;
+    color: rgb(115, 231, 151);
+}
+.hint-copy { font-size: 10px; color: rgb(255, 236, 202); }
+.hint-divider {
+    width: 2px; height: 18px;
+    margin-left: 13px; margin-right: 13px;
+    background-color: rgb(110, 140, 146);
+}
+.screen-overlay {
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(21, 33, 42, 0.58);
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 220ms;
+}
+.menu-frame {
+    width: 510px;
+    max-width: 88%;
+    padding: 5px;
+    background-color: rgb(37, 51, 68);
+    border-width: 3px;
+    border-color: rgb(24, 38, 51);
+}
+.grass-trim {
+    height: 17px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: rgb(39, 181, 126);
+    border-bottom-width: 4px;
+    border-bottom-color: rgb(25, 116, 94);
+}
+.grass-pixel { width: 15px; height: 7px; background-color: rgb(94, 232, 139); }
+.grass-pixel-two { height: 11px; width: 9px; }
+.grass-pixel-three { height: 5px; width: 20px; background-color: rgb(31, 150, 111); }
+.grass-pixel-four { height: 10px; width: 12px; }
+.grass-pixel-five { height: 6px; width: 18px; background-color: rgb(31, 150, 111); }
+.grass-pixel-six { height: 9px; width: 8px; }
+.menu-paper {
+    padding: 27px 38px 23px 38px;
+    background-color: rgb(238, 190, 132);
+    border-left-width: 3px; border-right-width: 3px;
+    border-left-color: rgb(203, 139, 94); border-right-color: rgb(203, 139, 94);
+}
+.menu-eyebrow-row { flex-direction: row; align-items: center; margin-bottom: 10px; }
+.status-pixel {
+    width: 9px; height: 9px;
+    margin-right: 8px;
+    background-color: rgb(42, 188, 126);
+    border-width: 2px; border-color: rgb(35, 91, 76);
+}
+.menu-eyebrow { font-size: 10px; -unity-font-style: bold; color: rgb(87, 75, 66); }
+.menu-title {
+    font-size: 43px;
+    -unity-font-style: bold;
+    color: rgb(42, 57, 72);
+}
+.menu-description {
+    margin-top: 3px;
+    max-width: 390px;
+    white-space: normal;
+    font-size: 13px;
+    color: rgb(91, 77, 66);
+}
+.tile-divider {
+    height: 9px;
+    margin-top: 19px; margin-bottom: 17px;
+    flex-direction: row;
+}
+.tile-divider-green { flex-grow: 3; background-color: rgb(41, 188, 127); }
+.tile-divider-tan { flex-grow: 1; background-color: rgb(194, 123, 83); }
+.tile-divider-blue { flex-grow: 1; background-color: rgb(47, 190, 224); }
+.tile-divider-orange { flex-grow: 2; background-color: rgb(236, 148, 86); }
+.button-stack { flex-direction: column; }
+.pixel-button {
+    height: 48px;
+    margin-bottom: 10px;
+    padding-left: 16px; padding-right: 16px;
+    border-radius: 0;
+    border-width: 3px;
+    -unity-text-align: middle-center;
+    font-size: 14px;
+    -unity-font-style: bold;
+    transition-property: background-color, border-color;
+    transition-duration: 120ms;
+}
+.primary-button {
+    background-color: rgb(43, 190, 127);
+    color: rgb(255, 248, 220);
+    border-color: rgb(29, 112, 91);
+    border-bottom-width: 6px;
+}
+.primary-button:hover { background-color: rgb(79, 218, 139); border-color: rgb(31, 130, 92); }
+.primary-button:active { background-color: rgb(31, 152, 107); }
+.secondary-button {
+    background-color: rgb(204, 129, 88);
+    color: rgb(255, 244, 222);
+    border-color: rgb(128, 76, 61);
+    border-bottom-width: 6px;
+}
+.secondary-button:hover { background-color: rgb(224, 151, 99); border-color: rgb(142, 82, 61); }
+.tertiary-button {
+    background-color: rgb(59, 177, 210);
+    color: rgb(255, 250, 220);
+    border-color: rgb(36, 101, 127);
+    border-bottom-width: 6px;
+}
+.tertiary-button:hover { background-color: rgb(91, 207, 231); }
+.menu-footer {
+    margin-top: 3px;
+    font-size: 9px;
+    color: rgb(103, 86, 70);
+    -unity-text-align: middle-center;
+}
+.dirt-trim {
+    height: 16px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(177, 105, 77);
+    border-top-width: 3px;
+    border-top-color: rgb(125, 75, 65);
+}
+.dirt-pixel { width: 12px; height: 4px; background-color: rgb(222, 151, 101); }
+.dirt-pixel-two { width: 7px; height: 7px; }
+.dirt-pixel-three { width: 18px; height: 4px; background-color: rgb(142, 81, 66); }
+.dirt-pixel-four { width: 9px; height: 6px; }
+.toast {
+    position: absolute;
+    left: 50%; bottom: 70px;
+    translate: -50% 0;
+    flex-direction: row;
+    align-items: center;
+    padding: 9px 15px;
+    background-color: rgb(37, 51, 68);
+    border-left-width: 4px;
+    border-left-color: rgb(47, 199, 139);
+    border-bottom-width: 4px;
+    border-bottom-color: rgb(21, 34, 47);
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 170ms;
+}
+.toast.visible { opacity: 1; }
+.toast-icon { width: 9px; height: 9px; margin-right: 9px; background-color: rgb(92, 225, 144); }
+.toast-label { font-size: 10px; -unity-font-style: bold; color: rgb(255, 232, 187); }
+.hidden { display: none; }
+
+
+/* =========================================================
+   SIGNPOST MESSAGE - UI TOOLKIT
+   ========================================================= */
+.signpost-panel {
+    position: absolute;
+    left: 50%;
+    bottom: 85px;
+    translate: -50% 0;
+    width: 520px;
+    max-width: 85%;
+    padding: 14px 20px 16px 20px;
+    background-color: rgba(37, 51, 68, 0.97);
+    border-left-width: 4px;
+    border-left-color: rgb(47, 199, 139);
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(21, 34, 47);
+    border-top-width: 2px;
+    border-top-color: rgb(90, 235, 144);
+    display: none;
+}
+.signpost-header {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.signpost-indicator {
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+    background-color: rgb(92, 225, 144);
+}
+.signpost-heading {
+    font-size: 10px;
+    -unity-font-style: bold;
+    color: rgb(115, 231, 151);
+}
+.signpost-message {
+    font-size: 15px;
+    white-space: normal;
+    color: rgb(255, 236, 202);
+}
+
+
+/* =========================================================
+   LARGER UI SCALE — overrides the original values above.
+   Existing layout, colours and UXML element names are retained.
+   ========================================================= */
+.hud {
+    left: 32px;
+    right: 32px;
+    top: 28px;
+}
+.brand-block {
+    padding: 11px 16px;
+    border-left-width: 5px;
+    border-bottom-width: 5px;
+}
+.cube-mark {
+    width: 40px;
+    height: 40px;
+    margin-right: 13px;
+}
+.brand-title { font-size: 24px; }
+.brand-subtitle { font-size: 14px; }
+
+.hud-stat {
+    min-width: 112px;
+    margin-left: 10px;
+    padding: 10px 15px 9px 15px;
+    border-bottom-width: 5px;
+    border-top-width: 4px;
+}
+.hud-stat-title { font-size: 14px; }
+.hud-stat-value { font-size: 30px; }
+
+.controls-hint {
+    bottom: 28px;
+    padding: 12px 18px;
+    border-bottom-width: 5px;
+}
+.hint-key {
+    margin-left: 8px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.hint-copy { font-size: 15px; }
+.hint-divider {
+    width: 2px;
+    height: 25px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.menu-frame {
+    width: 620px;
+    max-width: 92%;
+    padding: 6px;
+    border-width: 4px;
+}
+.grass-trim { height: 22px; }
+.menu-paper { padding: 36px 48px 32px 48px; }
+.menu-eyebrow-row { margin-bottom: 15px; }
+.status-pixel { width: 12px; height: 12px; margin-right: 11px; }
+.menu-eyebrow { font-size: 15px; }
+.menu-title { font-size: 54px; }
+.menu-description {
+    margin-top: 7px;
+    max-width: 490px;
+    font-size: 17px;
+}
+.tile-divider {
+    height: 12px;
+    margin-top: 27px;
+    margin-bottom: 23px;
+}
+.pixel-button {
+    height: 62px;
+    margin-bottom: 14px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-width: 4px;
+    font-size: 18px;
+}
+.menu-footer { margin-top: 6px; font-size: 14px; }
+.dirt-trim { height: 22px; }
+
+.toast {
+    bottom: 100px;
+    padding: 13px 21px;
+    border-left-width: 5px;
+    border-bottom-width: 5px;
+}
+.toast-label { font-size: 15px; }
+.toast-icon { width: 14px; height: 14px; margin-right: 12px; }
+
+.signpost-panel {
+    bottom: 120px;
+    width: 680px;
+    max-width: 92%;
+    padding: 21px 28px 24px 28px;
+    border-left-width: 5px;
+    border-bottom-width: 6px;
+}
+.signpost-header { margin-bottom: 12px; }
+.signpost-indicator { width: 12px; height: 12px; margin-right: 12px; }
+.signpost-heading { font-size: 15px; }
+.signpost-message { font-size: 21px; }
+
+
+/* =========================================================
+   SIGNPOST INTERACTION — SCREEN-SPACE, TOP-CENTRE
+   Keep signpost UI clear of the player and camera framing.
+   ========================================================= */
+.signpost-prompt {
+    position: absolute;
+    left: 50%;
+    top: 105px;
+    translate: -50% 0;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 17px;
+    background-color: rgba(37, 51, 68, 0.97);
+    border-left-width: 5px;
+    border-left-color: rgb(47, 199, 139);
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(21, 34, 47);
+    display: none;
+}
+
+.signpost-prompt-key {
+    min-width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    padding: 3px 7px;
+    background-color: rgb(43, 190, 127);
+    border-bottom-width: 3px;
+    border-bottom-color: rgb(21, 112, 83);
+    color: rgb(255, 248, 220);
+    font-size: 18px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.signpost-prompt-label {
+    color: rgb(255, 236, 202);
+    font-size: 15px;
+    -unity-font-style: bold;
+}
+
+.signpost-panel {
+    left: 50%;
+    top: 105px;
+    bottom: auto;
+    translate: -50% 0;
+    width: 680px;
+    max-width: 92%;
+    padding: 21px 28px 24px 28px;
+    border-left-width: 5px;
+    border-bottom-width: 6px;
+    display: none;
+}
+
+.signpost-header {
+    margin-bottom: 12px;
+}
+
+.signpost-heading {
+    font-size: 15px;
+}
+
+.signpost-close-hint {
+    margin-left: auto;
+    color: rgb(164, 198, 185);
+    font-size: 13px;
+    -unity-font-style: bold;
+}
+
+.signpost-message {
+    font-size: 21px;
+    white-space: normal;
+}
+
+
+/* =========================================================
+   CUBE//RUN UI POLISH
+   Transitions, depth, micro-interactions and signpost motion.
+   Designed to retain the existing UI Toolkit element names.
+   ========================================================= */
+
+/* Crisp, layered HUD panels with tactile lift on hover. */
+.brand-block {
+    border-top-width: 2px;
+    border-top-color: rgb(75, 225, 154);
+    transition-property: background-color, translate, scale, border-left-color;
+    transition-duration: 160ms;
+    transition-timing-function: ease-out;
+}
+.brand-block:hover {
+    background-color: rgba(43, 65, 78, 0.98);
+    border-left-color: rgb(118, 255, 174);
+    translate: 0 -2px;
+}
+.brand-title {
+    letter-spacing: 1px;
+}
+.brand-subtitle {
+    letter-spacing: 1px;
+}
+.hud-stat {
+    border-left-width: 2px;
+    border-left-color: rgba(106, 230, 169, 0.38);
+    transition-property: background-color, translate, scale, border-top-color;
+    transition-duration: 160ms;
+    transition-timing-function: ease-out;
+}
+.hud-stat:hover {
+    background-color: rgb(47, 67, 82);
+    border-top-color: rgb(117, 255, 174);
+    translate: 0 -3px;
+    scale: 1.035 1.035;
+}
+.hud-stat-value {
+    transition-property: color;
+    transition-duration: 150ms;
+}
+.hud-stat:hover .hud-stat-value {
+    color: rgb(255, 244, 197);
+}
+.controls-hint {
+    border-top-width: 2px;
+    border-top-color: rgba(115, 231, 151, 0.65);
+    transition-property: background-color, translate, opacity;
+    transition-duration: 160ms;
+    transition-timing-function: ease-out;
+}
+.controls-hint:hover {
+    background-color: rgba(49, 70, 83, 0.98);
+    translate: -50% -3px;
+}
+.hint-key {
+    letter-spacing: 1px;
+}
+
+/* Menu card reveal. PlatformerUIEffects adds/removes menu-entered. */
+.menu-frame {
+    opacity: 0;
+    scale: 0.94 0.94;
+    translate: 0 16px;
+    transition-property: opacity, scale, translate;
+    transition-duration: 230ms;
+    transition-timing-function: ease-out;
+}
+.menu-frame.menu-entered {
+    opacity: 1;
+    scale: 1 1;
+    translate: 0 0;
+}
+.menu-paper {
+    border-top-width: 3px;
+    border-top-color: rgb(255, 218, 157);
+}
+.menu-title {
+    letter-spacing: 1px;
+    transition-property: translate, opacity;
+    transition-duration: 260ms;
+    transition-delay: 50ms;
+}
+.menu-description {
+    transition-property: translate, opacity;
+    transition-duration: 260ms;
+    transition-delay: 90ms;
+}
+.menu-title,
+.menu-description,
+.button-stack,
+.menu-footer {
+    opacity: 0;
+    translate: 0 7px;
+    transition-property: opacity, translate;
+    transition-duration: 240ms;
+    transition-timing-function: ease-out;
+}
+.menu-frame.menu-entered .menu-title,
+.menu-frame.menu-entered .menu-description,
+.menu-frame.menu-entered .button-stack,
+.menu-frame.menu-entered .menu-footer {
+    opacity: 1;
+    translate: 0 0;
+}
+
+/* Chunky, tactile button response. */
+.pixel-button {
+    transition-property: background-color, border-color, scale, translate;
+    transition-duration: 140ms;
+    transition-timing-function: ease-out;
+}
+.pixel-button:hover {
+    scale: 1.025 1.025;
+    translate: 0 -2px;
+}
+.pixel-button:active {
+    scale: 0.985 0.985;
+    translate: 0 3px;
+    border-bottom-width: 3px;
+}
+.primary-button:hover {
+    background-color: rgb(91, 232, 151);
+    border-color: rgb(45, 151, 103);
+}
+.secondary-button:hover {
+    background-color: rgb(233, 164, 112);
+}
+.tertiary-button:hover {
+    background-color: rgb(111, 219, 237);
+}
+
+/* Toast slides up and scales into place using the existing .visible class. */
+.toast {
+    translate: -50% 12px;
+    scale: 0.97 0.97;
+    border-top-width: 2px;
+    border-top-color: rgba(114, 244, 167, 0.8);
+    transition-property: opacity, translate, scale;
+    transition-duration: 190ms;
+    transition-timing-function: ease-out;
+}
+.toast.visible {
+    opacity: 1;
+    translate: -50% 0;
+    scale: 1 1;
+}
+.toast-icon {
+    border-radius: 2px;
+}
+
+/* Signpost prompt: short pop-in plus a gentle E-key pulse. */
+.signpost-prompt {
+    opacity: 0;
+    scale: 0.92 0.92;
+    translate: -50% 9px;
+    border-top-width: 2px;
+    border-top-color: rgb(105, 246, 166);
+    transition-property: opacity, scale, translate, background-color;
+    transition-duration: 190ms;
+    transition-timing-function: ease-out;
+}
+.signpost-prompt.is-visible {
+    opacity: 1;
+    scale: 1 1;
+    translate: -50% 0;
+}
+.signpost-prompt.pulse {
+    scale: 1.035 1.035;
+}
+.signpost-prompt-key {
+    transition-property: background-color, scale, translate;
+    transition-duration: 140ms;
+}
+.signpost-prompt:hover .signpost-prompt-key {
+    background-color: rgb(92, 229, 145);
+    scale: 1.06 1.06;
+}
+.signpost-prompt-label {
+    letter-spacing: 1px;
+}
+
+/* Signpost message scales/fades in, then the existing typewriter runs. */
+.signpost-panel {
+    opacity: 0;
+    scale: 0.95 0.95;
+    translate: -50% 12px;
+    border-top-width: 3px;
+    transition-property: opacity, scale, translate;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+}
+.signpost-panel.is-visible {
+    opacity: 1;
+    scale: 1 1;
+    translate: -50% 0;
+}
+.signpost-indicator {
+    border-radius: 2px;
+    transition-property: scale, background-color;
+    transition-duration: 180ms;
+}
+.signpost-panel.is-visible .signpost-indicator {
+    scale: 1.25 1.25;
+    background-color: rgb(126, 255, 169);
+}
+.signpost-heading {
+    letter-spacing: 1px;
+}
+.signpost-close-hint {
+    margin-left: auto;
+    color: rgb(164, 198, 185);
+    font-size: 13px;
+    -unity-font-style: bold;
+}
+.signpost-message {
+    line-height: 1.35;
+}
+
+/* HUD intro classes are played once by PlatformerUIEffects. */
+.brand-block,
+.hud-right,
+.controls-hint {
+    transition-property: opacity, translate;
+    transition-duration: 260ms;
+    transition-timing-function: ease-out;
+}
+.brand-block {
+    opacity: 0;
+    translate: -14px 0;
+}
+.brand-block.ui-entered {
+    opacity: 1;
+    translate: 0 0;
+}
+.hud-right {
+    opacity: 0;
+    translate: 14px 0;
+}
+.hud-right.ui-entered {
+    opacity: 1;
+    translate: 0 0;
+}
+.controls-hint {
+    opacity: 0;
+    translate: -50% 12px;
+}
+.controls-hint.ui-entered {
+    opacity: 1;
+    translate: -50% 0;
+}
+.status-pixel {
+    transition-property: scale, background-color;
+    transition-duration: 180ms;
+}
+.status-pixel.blink {
+    scale: 1.35 1.35;
+    background-color: rgb(91, 238, 146);
+}

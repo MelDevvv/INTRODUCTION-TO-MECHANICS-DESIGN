@@ -1,0 +1,102 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="PlatformerUI.uss" />
+    <ui:VisualElement name="root" class="root">
+        <ui:VisualElement class="world-dim" />
+        <ui:VisualElement class="ambient-ground" />
+
+        <!-- HUD -->
+        <ui:VisualElement name="hud" class="hud">
+            <ui:VisualElement class="brand-block">
+                <ui:VisualElement class="cube-mark">
+                    <ui:VisualElement class="cube-mark-top" />
+                    <ui:VisualElement class="cube-mark-face" />
+                    <ui:VisualElement class="cube-mark-side" />
+                </ui:VisualElement>
+                <ui:VisualElement class="brand-copy">
+                    <ui:Label text="CUBE//RUN" class="brand-title" />
+                    <ui:Label text="2D PLATFORM ADVENTURE" class="brand-subtitle" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="hud-right">
+                <ui:VisualElement class="hud-stat">
+                    <ui:Label text="DEATHS" class="hud-stat-title" />
+                    <ui:Label name="death-count" text="00" class="hud-stat-value death-value" />
+                </ui:VisualElement>
+                <ui:VisualElement class="hud-stat">
+                    <ui:Label text="LEVEL" class="hud-stat-title" />
+                    <ui:Label name="level-name" text="01" class="hud-stat-value" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- Bottom gameplay hint -->
+        <ui:VisualElement name="controls-hint" class="controls-hint">
+            <ui:Label text="MOVE" class="hint-key" />
+            <ui:Label text="A / D  OR  ARROW KEYS" class="hint-copy" />
+            <ui:VisualElement class="hint-divider" />
+            <ui:Label text="JUMP" class="hint-key" />
+            <ui:Label text="SPACE" class="hint-copy" />
+        </ui:VisualElement>
+
+        <!-- Signpost Interaction Prompt -->
+        <ui:VisualElement name="signpost-prompt" class="signpost-prompt">
+            <ui:Label text="E" class="signpost-prompt-key" />
+            <ui:Label text="READ SIGN" class="signpost-prompt-label" />
+        </ui:VisualElement>
+
+        <!-- Signpost Message -->
+        <ui:VisualElement name="signpost-panel" class="signpost-panel">
+            <ui:VisualElement class="signpost-header">
+                <ui:VisualElement class="signpost-indicator" />
+                <ui:Label text="WORLD MESSAGE" class="signpost-heading" />
+                <ui:Label text="E  CLOSE" class="signpost-close-hint" />
+            </ui:VisualElement>
+            <ui:Label name="signpost-message" text="" class="signpost-message" />
+        </ui:VisualElement>
+
+        <!-- Menus -->
+        <ui:VisualElement name="screen-overlay" class="screen-overlay">
+            <ui:VisualElement name="menu-frame" class="menu-frame">
+                <ui:VisualElement class="grass-trim">
+                    <ui:VisualElement class="grass-pixel grass-pixel-one" />
+                    <ui:VisualElement class="grass-pixel grass-pixel-two" />
+                    <ui:VisualElement class="grass-pixel grass-pixel-three" />
+                    <ui:VisualElement class="grass-pixel grass-pixel-four" />
+                    <ui:VisualElement class="grass-pixel grass-pixel-five" />
+                    <ui:VisualElement class="grass-pixel grass-pixel-six" />
+                </ui:VisualElement>
+                <ui:VisualElement class="menu-paper">
+                    <ui:VisualElement class="menu-eyebrow-row">
+                        <ui:VisualElement class="status-pixel" />
+                        <ui:Label name="screen-kicker" text="A LITTLE PIXEL ADVENTURE" class="menu-eyebrow" />
+                    </ui:VisualElement>
+                    <ui:Label name="screen-title" text="CUBE//RUN" class="menu-title" />
+                    <ui:Label name="screen-description" text="Run, jump and find your way across the world." class="menu-description" />
+                    <ui:VisualElement class="tile-divider">
+                        <ui:VisualElement class="tile-divider-green" />
+                        <ui:VisualElement class="tile-divider-tan" />
+                        <ui:VisualElement class="tile-divider-blue" />
+                        <ui:VisualElement class="tile-divider-orange" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="button-stack">
+                        <ui:Button name="primary-button" text="START GAME" class="pixel-button primary-button" />
+                        <ui:Button name="secondary-button" text="QUIT GAME" class="pixel-button secondary-button" />
+                        <ui:Button name="tertiary-button" text="MAIN MENU" class="pixel-button tertiary-button hidden" />
+                    </ui:VisualElement>
+                    <ui:Label name="screen-footer" text="A / D OR ARROWS TO MOVE     SPACE TO JUMP" class="menu-footer" />
+                </ui:VisualElement>
+                <ui:VisualElement class="dirt-trim">
+                    <ui:VisualElement class="dirt-pixel dirt-pixel-one" />
+                    <ui:VisualElement class="dirt-pixel dirt-pixel-two" />
+                    <ui:VisualElement class="dirt-pixel dirt-pixel-three" />
+                    <ui:VisualElement class="dirt-pixel dirt-pixel-four" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement name="toast" class="toast">
+            <ui:VisualElement class="toast-icon" />
+            <ui:Label name="toast-label" text="LEVEL RESTARTED" class="toast-label" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
