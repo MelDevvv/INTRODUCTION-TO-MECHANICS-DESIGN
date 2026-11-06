@@ -118,6 +118,7 @@
     background-color: rgb(110, 140, 146);
 }
 .screen-overlay {
+    display: none;
     position: absolute;
     left: 0; right: 0; top: 0; bottom: 0;
     align-items: center;
@@ -700,10 +701,6 @@
     font-size: 13px;
     -unity-font-style: bold;
 }
-.signpost-message {
-    line-height: 1.35;
-}
-
 /* HUD intro classes are played once by PlatformerUIEffects. */
 .brand-block,
 .hud-right,
@@ -743,4 +740,398 @@
 .status-pixel.blink {
     scale: 1.35 1.35;
     background-color: rgb(91, 238, 146);
+}
+
+
+/* NOT A REAL PLATFORMER — gameplay timer HUD */
+.timer-stat {
+    min-width: 150px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-top-color: rgb(114, 220, 151);
+}
+.timer-value {
+    color: rgb(169, 244, 151);
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+.timer-best {
+    margin-top: 3px;
+    color: rgb(149, 190, 178);
+    font-size: 10px;
+    -unity-font-style: bold;
+}
+.brand-title {
+    font-size: 21px;
+}
+
+
+/* =========================================================
+   NOT A REAL PLATFORMER — START GATE + PAUSE UI REPAIR
+   ========================================================= */
+
+/* Full-screen root and correctly-sized pause overlay. */
+.root {
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.screen-overlay {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(10, 18, 29, 0.78);
+    opacity: 1;
+}
+
+.menu-frame {
+    width: 620px;
+    max-width: 90%;
+    flex-shrink: 0;
+    opacity: 1;
+    scale: 1 1;
+    translate: 0 0;
+}
+
+.menu-paper {
+    width: 100%;
+}
+
+.button-stack {
+    width: 100%;
+    flex-direction: column;
+    opacity: 1;
+    translate: 0 0;
+}
+
+.pixel-button {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.menu-title,
+.menu-description,
+.button-stack,
+.menu-footer {
+    opacity: 1;
+    translate: 0 0;
+}
+
+/* The pause overlay is only shown by the existing RuntimeUI pause/death logic. */
+.screen-overlay .menu-title {
+    font-size: 48px;
+}
+
+/* Stable timer card: its width does not depend on the changing time string. */
+.hud-right {
+    flex-direction: row;
+    align-items: stretch;
+    flex-shrink: 0;
+}
+
+.timer-stat {
+    width: 188px;
+    min-width: 188px;
+    max-width: 188px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.timer-value {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    flex-shrink: 0;
+    color: rgb(169, 244, 151);
+    font-size: 26px;
+    letter-spacing: 0px;
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+}
+
+.timer-best {
+    width: 100%;
+    flex-shrink: 0;
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+}
+
+/* Any-input start prompt. Kept clear of the player and fixed to the screen. */
+.start-prompt {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    translate: -50% 10px;
+    width: 430px;
+    max-width: 88%;
+    padding: 13px 22px 12px 22px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(25, 42, 57, 0.96);
+    border-left-width: 4px;
+    border-left-color: rgb(83, 224, 151);
+    border-right-width: 4px;
+    border-right-color: rgb(83, 224, 151);
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(13, 28, 40);
+    border-top-width: 2px;
+    border-top-color: rgb(131, 246, 163);
+    opacity: 0;
+    display: none;
+    scale: 0.97 0.97;
+    transition-property: opacity, translate, scale;
+    transition-duration: 220ms;
+    transition-timing-function: ease-out;
+}
+
+.start-prompt.is-visible {
+    opacity: 1;
+    translate: -50% 0px;
+    scale: 1 1;
+}
+
+.start-prompt-accent {
+    width: 42px;
+    height: 4px;
+    margin-bottom: 9px;
+    background-color: rgb(124, 241, 153);
+}
+
+.start-prompt-title {
+    color: rgb(255, 239, 207);
+    font-size: 17px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+    -unity-text-align: middle-center;
+}
+
+.start-prompt-subtitle {
+    margin-top: 3px;
+    color: rgb(149, 230, 173);
+    font-size: 10px;
+    -unity-font-style: bold;
+    letter-spacing: 2px;
+    -unity-text-align: middle-center;
+}
+
+.start-prompt-controls {
+    margin-top: 10px;
+    color: rgb(171, 199, 190);
+    font-size: 10px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    white-space: normal;
+}
+
+
+
+/* =========================================================
+   NOT A REAL PLATFORMER — PAUSE + SCENE LOADING TRANSITION
+   ========================================================= */
+
+/* Make sure the pause card is hidden until requested by Escape. */
+.screen-overlay {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(8, 15, 24, 0.82);
+    opacity: 1;
+}
+
+.menu-frame {
+    width: 620px;
+    max-width: 90%;
+    flex-shrink: 0;
+    opacity: 1;
+    scale: 1 1;
+    translate: 0 0;
+}
+
+.menu-paper {
+    width: 100%;
+}
+
+.menu-title,
+.menu-description,
+.button-stack,
+.menu-footer {
+    opacity: 1;
+    translate: 0 0;
+}
+
+.button-stack {
+    width: 100%;
+    flex-direction: column;
+}
+
+.pixel-button {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+/* Timer card stays the same size as its digits change. */
+.timer-stat {
+    width: 188px;
+    min-width: 188px;
+    max-width: 188px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.timer-value {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    flex-shrink: 0;
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+    letter-spacing: 0px;
+}
+
+.timer-best {
+    width: 100%;
+    flex-shrink: 0;
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+}
+
+/* Dedicated full-screen loading screen. */
+.scene-loading-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10, 19, 31);
+    transition-property: opacity;
+    transition-duration: 260ms;
+    transition-timing-function: ease-out;
+}
+
+.scene-loading-overlay.is-visible {
+    opacity: 1;
+}
+
+.scene-loading-panel {
+    width: 480px;
+    max-width: 88%;
+    min-height: 270px;
+    padding: 34px 36px 28px 36px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 47, 64);
+    border-left-width: 4px;
+    border-left-color: rgb(86, 224, 151);
+    border-right-width: 4px;
+    border-right-color: rgb(86, 224, 151);
+    border-top-width: 3px;
+    border-top-color: rgb(142, 245, 158);
+    border-bottom-width: 6px;
+    border-bottom-color: rgb(11, 25, 38);
+}
+
+.scene-loading-emblem {
+    width: 42px;
+    height: 42px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.scene-loading-emblem-top {
+    position: absolute;
+    left: 7px;
+    top: 0;
+    width: 29px;
+    height: 12px;
+    background-color: rgb(161, 242, 128);
+}
+
+.scene-loading-emblem-front {
+    position: absolute;
+    left: 2px;
+    top: 11px;
+    width: 26px;
+    height: 28px;
+    background-color: rgb(69, 201, 143);
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    border-color: rgb(20, 75, 72);
+}
+
+.scene-loading-emblem-side {
+    position: absolute;
+    left: 27px;
+    top: 11px;
+    width: 13px;
+    height: 28px;
+    background-color: rgb(34, 139, 132);
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-color: rgb(20, 75, 72);
+}
+
+.scene-loading-brand {
+    color: rgb(150, 228, 173);
+    font-size: 11px;
+    -unity-font-style: bold;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+}
+
+.scene-loading-title {
+    color: rgb(255, 239, 207);
+    font-size: 21px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.scene-loading-subtitle {
+    color: rgb(158, 190, 183);
+    font-size: 11px;
+    margin-top: 7px;
+}
+
+.scene-loading-bar {
+    width: 100%;
+    height: 9px;
+    margin-top: 27px;
+    background-color: rgb(13, 28, 42);
+    border-width: 1px;
+    border-color: rgb(69, 112, 113);
+}
+
+.scene-loading-bar-fill {
+    width: 8%;
+    height: 100%;
+    background-color: rgb(112, 226, 146);
+    border-right-width: 2px;
+    border-right-color: rgb(202, 255, 173);
+}
+
+.scene-loading-footer {
+    color: rgb(111, 151, 151);
+    font-size: 9px;
+    -unity-font-style: bold;
+    letter-spacing: 2px;
+    margin-top: 14px;
 }

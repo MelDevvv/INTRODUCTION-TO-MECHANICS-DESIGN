@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|c:\\users\\edgar\\onedrive\\documents\\uni work\\introduction-to-mechanics-design\\platformer\\assets\\assessment 2\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|c:\\users\\edgar\\onedrive\\documents\\uni work\\introduction-to-mechanics-design\\platformer\\assets\\assessment 2\\platformeruimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\platformeruimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|c:\\users\\edgar\\onedrive\\documents\\uni work\\introduction-to-mechanics-design\\platformer\\assets\\assessment 2\\gameplayscenebootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\gameplayscenebootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\assets\\assessment 2\\juicefeel\\playercontroller_spin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\juicefeel\\playercontroller_spin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\assets\\assessment 2\\playercontroller.gameplayinputgate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\playercontroller.gameplayinputgate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\assets\\assessment 1\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 1\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\assets\\assessment 2\\mainmenu.uss||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\mainmenu.uss||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\assets\\assessment 2\\juicefeel\\playergamejuice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\juicefeel\\playergamejuice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +39,16 @@
       "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\juicefeel\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|c:\\users\\edgar\\onedrive\\documents\\uni work\\introduction-to-mechanics-design\\platformer\\assets\\assessment 2\\platformeruieffects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\assets\\assessment 2\\platformeruieffects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\platformeruieffects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|c:\\users\\edgar\\onedrive\\documents\\uni work\\introduction-to-mechanics-design\\platformer\\assets\\assessment 2\\signpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\assets\\assessment 2\\signpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\signpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\assets\\assessment 2\\platformerui.uss||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\platformerui.uss||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +58,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainMenuController.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\MainMenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\assessment 2\\MainMenuController.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\MainMenuController.cs",
+              "RelativeToolTip": "Assets\\assessment 2\\MainMenuController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T23:43:26.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlatformerUIManager.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\PlatformerUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\assessment 2\\PlatformerUIManager.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\PlatformerUIManager.cs",
+              "RelativeToolTip": "Assets\\assessment 2\\PlatformerUIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T23:39:22.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController_Spin.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\Juicefeel\\PlayerController_Spin.cs",
+              "RelativeDocumentMoniker": "Assets\\assessment 2\\Juicefeel\\PlayerController_Spin.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\Juicefeel\\PlayerController_Spin.cs",
+              "RelativeToolTip": "Assets\\assessment 2\\Juicefeel\\PlayerController_Spin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T23:08:28.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerController.GameplayInputGate.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\PlayerController.GameplayInputGate.cs",
+              "RelativeDocumentMoniker": "Assets\\assessment 2\\PlayerController.GameplayInputGate.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\PlayerController.GameplayInputGate.cs",
+              "RelativeToolTip": "Assets\\assessment 2\\PlayerController.GameplayInputGate.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T22:52:11.008Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "GameplaySceneBootstrap.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\GameplaySceneBootstrap.cs",
+              "RelativeDocumentMoniker": "Assets\\assessment 2\\GameplaySceneBootstrap.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\GameplaySceneBootstrap.cs",
+              "RelativeToolTip": "Assets\\assessment 2\\GameplaySceneBootstrap.cs",
+              "ViewState": "AgIAAKgBAAAAAAAAAAAiwNQBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T22:51:29.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 1\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\assessment 1\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 1\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\assessment 1\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T22:32:48.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainMenu.uss",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\MainMenu.uss",
+              "RelativeDocumentMoniker": "Assets\\assessment 2\\MainMenu.uss",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\MainMenu.uss",
+              "RelativeToolTip": "Assets\\assessment 2\\MainMenu.uss",
+              "ViewState": "AgIAAA0AAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-06T21:57:17.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlatformerUI.uss",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\PlatformerUI.uss",
+              "RelativeDocumentMoniker": "Assets\\assessment 2\\PlatformerUI.uss",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\PlatformerUI.uss",
+              "RelativeToolTip": "Assets\\assessment 2\\PlatformerUI.uss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-06T21:57:15.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "PlatformerUIEffects.cs",
               "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\PlatformerUIEffects.cs",
               "RelativeDocumentMoniker": "Assets\\assessment 2\\PlatformerUIEffects.cs",
@@ -38,12 +170,11 @@
               "RelativeToolTip": "Assets\\assessment 2\\PlatformerUIEffects.cs",
               "ViewState": "AgIAAKAAAAAAAAAAAAAiwK4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T21:07:55.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T21:07:55.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Signpost.cs",
               "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\Signpost.cs",
               "RelativeDocumentMoniker": "Assets\\assessment 2\\Signpost.cs",
@@ -51,25 +182,23 @@
               "RelativeToolTip": "Assets\\assessment 2\\Signpost.cs",
               "ViewState": "AgIAAGYBAAAAAAAAAAAiwJIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T20:58:12.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T20:58:12.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "PlayerGameJuice.cs",
               "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\Juicefeel\\PlayerGameJuice.cs",
               "RelativeDocumentMoniker": "Assets\\assessment 2\\Juicefeel\\PlayerGameJuice.cs",
               "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\Juicefeel\\PlayerGameJuice.cs",
               "RelativeToolTip": "Assets\\assessment 2\\Juicefeel\\PlayerGameJuice.cs",
-              "ViewState": "AgIAALIBAAAAAAAAAAA4wN4BAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALMBAAAAAAAAAAAcwN4BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T20:48:03.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T20:48:03.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\Juicefeel\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\assessment 2\\Juicefeel\\CameraFollow.cs",
@@ -77,8 +206,7 @@
               "RelativeToolTip": "Assets\\assessment 2\\Juicefeel\\CameraFollow.cs",
               "ViewState": "AgIAAA8CAAAAAAAAAAAcwDoCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T20:32:57.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T20:32:57.88Z"
             }
           ]
         }

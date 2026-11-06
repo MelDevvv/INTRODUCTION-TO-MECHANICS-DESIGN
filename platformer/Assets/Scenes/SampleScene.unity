@@ -3398,8 +3398,9 @@ GameObject:
   m_Component:
   - component: {fileID: 323085100}
   - component: {fileID: 323085099}
-  - component: {fileID: 323085101}
   - component: {fileID: 323085102}
+  - component: {fileID: 323085103}
+  - component: {fileID: 323085104}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -3445,20 +3446,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &323085101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 323085097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 021785bc6fc9d924dad7df25d9a35358, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlatformerUIManager
-  gameplaySceneName: SampleScene
-  levelDisplayName: 01
 --- !u!114 &323085102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3476,6 +3463,40 @@ MonoBehaviour:
   hudStaggerDelay: 0.07
   pulseMenuStatusPixel: 1
   statusPulseInterval: 0.8
+--- !u!114 &323085103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323085097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a222fe0d1d01d4cb6f6de7d6d39819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelTimerUI
+  uiDocument: {fileID: 323085099}
+  levelDisplayName: Practice
+  startAutomatically: 1
+  saveBestTime: 1
+  displayRefreshInterval: 0.05
+--- !u!114 &323085104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323085097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e346517e489a2d4691974043f72ac73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameplaySceneBootstrap
+  uiDocument: {fileID: 323085099}
+  playerController: {fileID: 1801915955}
+  levelTimer: {fileID: 323085103}
+  mainMenuSceneName: MainMenu
+  loadingTransitionDuration: 0.3
 --- !u!1 &347948972
 GameObject:
   m_ObjectHideFlags: 0
@@ -7709,7 +7730,7 @@ Transform:
   m_GameObject: {fileID: 1801915950}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7864,6 +7885,11 @@ MonoBehaviour:
   enableLedgeCrouch: 1
   crouchSpeedMultiplier: 0.5
   ledgeLookAhead: 0.08
+  startPreviewSpinSpeed: 150
+  startPreviewFloatHeight: 0.09
+  startPreviewGroundOffset: 0.8
+  startPreviewFloatFrequency: 0.7
+  startReleaseAlignmentSmoothTime: 0.18
 --- !u!114 &1801915956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7881,7 +7907,7 @@ MonoBehaviour:
   groundLayers:
     serializedVersion: 2
     m_Bits: 64
-  cameraFollow: {fileID: 0}
+  cameraFollow: {fileID: 519420033}
   landingDustPrefab: {fileID: 9187487312611542453, guid: 0cdd77082f0cd8142b1d2ef3f85c8faf, type: 3}
   landingDustLifetime: 0.7
   landingDustSize: 1

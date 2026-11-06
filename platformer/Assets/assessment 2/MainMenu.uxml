@@ -1,0 +1,178 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="MainMenu.uss" />
+
+    <ui:VisualElement name="menu-root" class="menu-root">
+        <ui:VisualElement class="background-wash" />
+        <ui:VisualElement class="background-grid" />
+
+        <ui:VisualElement class="star star-one" />
+        <ui:VisualElement class="star star-two" />
+        <ui:VisualElement class="star star-three" />
+        <ui:VisualElement class="star star-four" />
+        <ui:VisualElement class="star star-five" />
+        <ui:VisualElement class="star star-six" />
+
+        <ui:VisualElement class="top-bar">
+            <ui:VisualElement class="brand-lockup">
+                <ui:VisualElement class="brand-emblem">
+                    <ui:VisualElement class="emblem-top" />
+                    <ui:VisualElement class="emblem-front" />
+                    <ui:VisualElement class="emblem-side" />
+                </ui:VisualElement>
+                <ui:VisualElement class="brand-text">
+                    <ui:Label text="NRP" class="brand-short" />
+                    <ui:Label text="NOT A REAL PLATFORMER" class="brand-long" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Label text="A VERY REAL PLATFORMING EXPERIENCE" class="top-tag" />
+        </ui:VisualElement>
+
+        <!-- MAIN LANDING SCREEN -->
+        <ui:VisualElement name="main-screen" class="menu-screen main-screen">
+            <ui:VisualElement class="main-content">
+                <ui:VisualElement class="hero-copy">
+                    <ui:VisualElement class="eyebrow">
+                        <ui:VisualElement class="eyebrow-dot" />
+                        <ui:Label text="PIXEL ADVENTURE // EST. 2026" class="eyebrow-text" />
+                    </ui:VisualElement>
+
+                    <ui:Label text="NOT A REAL" class="title-small" />
+                    <ui:Label text="PLATFORMER" class="title-large" />
+                    <ui:Label text="A tiny cube. A suspicious number of gaps." class="hero-subtitle" />
+                    <ui:Label text="Run, jump, explore and try not to become part of the scenery." class="hero-description" />
+
+                    <ui:VisualElement class="main-actions">
+                        <ui:Button name="play-button" text="▶  PLAY" class="action-button action-primary" />
+                        <ui:Button name="level-select-button" text="▦  SELECT LEVEL" class="action-button action-secondary" />
+                        <ui:Button name="practice-button" text="◇  PRACTICE" class="action-button action-tertiary" />
+                        <ui:Button name="quit-button" text="×  QUIT GAME" class="action-button action-tertiary" />
+                    </ui:VisualElement>
+
+                    <ui:Label name="menu-status" text="" class="menu-status" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="hero-art">
+                    <ui:VisualElement class="art-orbit orbit-one" />
+                    <ui:VisualElement class="art-orbit orbit-two" />
+                    <ui:VisualElement class="art-spark spark-one" />
+                    <ui:VisualElement class="art-spark spark-two" />
+                    <ui:VisualElement class="art-spark spark-three" />
+
+                    <ui:VisualElement name="hero-cube" class="hero-cube">
+                        <ui:VisualElement class="hero-cube-top" />
+                        <ui:VisualElement class="hero-cube-front">
+                            <ui:VisualElement class="cube-eye eye-left" />
+                            <ui:VisualElement class="cube-eye eye-right" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="hero-cube-side" />
+                    </ui:VisualElement>
+
+                    <ui:VisualElement class="art-platform platform-back">
+                        <ui:VisualElement class="platform-grass" />
+                        <ui:VisualElement class="platform-dirt" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="art-platform platform-front">
+                        <ui:VisualElement class="platform-grass" />
+                        <ui:VisualElement class="platform-dirt" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="art-caption">
+                        <ui:Label text="READY PLAYER ONE?" class="art-caption-title" />
+                        <ui:Label text="PRESS PLAY. REGRET NOTHING." class="art-caption-subtitle" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- LEVEL SELECT SCREEN -->
+        <ui:VisualElement name="level-select-screen" class="menu-screen level-select-screen">
+            <ui:VisualElement class="level-heading-row">
+                <ui:VisualElement class="level-heading-copy">
+                    <ui:Label text="CHOOSE YOUR DESTINATION" class="eyebrow-text level-eyebrow" />
+                    <ui:Label text="SELECT A LEVEL" class="level-title" />
+                    <ui:Label text="Five stages. One practice zone. Absolutely no excuses." class="level-subtitle" />
+                </ui:VisualElement>
+                <ui:Button name="back-button" text="←  BACK" class="action-button action-secondary back-button" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="level-grid">
+                <ui:Button name="level-1-button" class="level-card level-card-green">
+                    <ui:VisualElement class="level-card-top">
+                        <ui:Label text="01" class="level-number" />
+                        <ui:Label text="STARTER" class="level-tag" />
+                    </ui:VisualElement>
+                    <ui:Label text="GREEN HORIZON" class="level-card-title" />
+                    <ui:Label text="Find your feet. Learn the world." class="level-card-description" />
+                    <ui:Label text="ENTER LEVEL  →" class="level-card-footer" />
+                </ui:Button>
+
+                <ui:Button name="level-2-button" class="level-card level-card-orange">
+                    <ui:VisualElement class="level-card-top">
+                        <ui:Label text="02" class="level-number" />
+                        <ui:Label text="TRICKY" class="level-tag" />
+                    </ui:VisualElement>
+                    <ui:Label text="CRUMBLE CAVES" class="level-card-title" />
+                    <ui:Label text="Mind the gaps. Mind everything." class="level-card-description" />
+                    <ui:Label text="ENTER LEVEL  →" class="level-card-footer" />
+                </ui:Button>
+
+                <ui:Button name="level-3-button" class="level-card level-card-blue">
+                    <ui:VisualElement class="level-card-top">
+                        <ui:Label text="03" class="level-number" />
+                        <ui:Label text="HIGH ALTITUDE" class="level-tag" />
+                    </ui:VisualElement>
+                    <ui:Label text="SKYWARD STEPS" class="level-card-title" />
+                    <ui:Label text="Take the long way up." class="level-card-description" />
+                    <ui:Label text="ENTER LEVEL  →" class="level-card-footer" />
+                </ui:Button>
+
+                <ui:Button name="level-4-button" class="level-card level-card-purple">
+                    <ui:VisualElement class="level-card-top">
+                        <ui:Label text="04" class="level-number" />
+                        <ui:Label text="FALL ZONE" class="level-tag" />
+                    </ui:VisualElement>
+                    <ui:Label text="THE DEEP DROP" class="level-card-title" />
+                    <ui:Label text="Trust your timing. Not gravity." class="level-card-description" />
+                    <ui:Label text="ENTER LEVEL  →" class="level-card-footer" />
+                </ui:Button>
+
+                <ui:Button name="level-5-button" class="level-card level-card-red">
+                    <ui:VisualElement class="level-card-top">
+                        <ui:Label text="05" class="level-number" />
+                        <ui:Label text="FINAL STAGE" class="level-tag" />
+                    </ui:VisualElement>
+                    <ui:Label text="FINAL ASCENT" class="level-card-title" />
+                    <ui:Label text="Everything you have learnt. Go." class="level-card-description" />
+                    <ui:Label text="ENTER LEVEL  →" class="level-card-footer" />
+                </ui:Button>
+
+                <ui:Button name="practice-level-button" class="level-card level-card-practice">
+                    <ui:VisualElement class="level-card-top">
+                        <ui:Label text="∞" class="level-number" />
+                        <ui:Label text="NO PRESSURE" class="level-tag" />
+                    </ui:VisualElement>
+                    <ui:Label text="PRACTICE GROUNDS" class="level-card-title" />
+                    <ui:Label text="Test jumps, explore and experiment." class="level-card-description" />
+                    <ui:Label text="ENTER PRACTICE  →" class="level-card-footer" />
+                </ui:Button>
+            </ui:VisualElement>
+
+            <ui:Label name="level-status" text="" class="menu-status level-status" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="bottom-bar">
+            <ui:Label text="MOVE  A / D OR ARROWS" class="bottom-hint" />
+            <ui:VisualElement class="bottom-divider" />
+            <ui:Label text="JUMP  SPACE" class="bottom-hint" />
+            <ui:VisualElement class="bottom-divider" />
+            <ui:Label text="SAFE WALK  CTRL" class="bottom-hint" />
+            <ui:VisualElement class="bottom-divider" />
+            <ui:Label text="INTERACT  E" class="bottom-hint" />
+            <ui:Label text="NOT A REAL PLATFORMER  •  BUILD 01" class="bottom-version" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="transition-overlay" class="transition-overlay">
+            <ui:VisualElement class="transition-mark" />
+            <ui:Label text="LOADING YOUR ADVENTURE..." class="transition-label" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

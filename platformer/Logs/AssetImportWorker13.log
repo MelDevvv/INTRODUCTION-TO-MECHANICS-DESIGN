@@ -1,22 +1,22 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.21f1 (c02631ffc030) revision 12592689'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32665 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-edgar" at "2026-11-05T18:20:16.525039Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-edgar" at "2026-11-06T22:51:51.9187418Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-11-05T18:20:16Z
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 32868, path: "C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+Date: 2026-11-06T22:51:51Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 35152, path: "C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              aa8f39bba4a34a7f9c0ba397bd4f0fa3
-  Correlation Id:          a24d0d26ac841b1132e92cfa39a8d410
-  External correlation Id: 7506041958245678513
+  Session Id:              d3185a83c8b34b23bf82c71d2d5521c8
+  Correlation Id:          824f9862a7f526f529d068e07b3d1457
+  External correlation Id: 9080334920480826075
   Machine Id:              gRrhJjxWoT1JuF56KWHhYZ/28CQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-edgar" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-edgar-notifications" at "2026-11-05T18:20:16.5741002Z"
-[Licensing::Module] Licensing Background thread has ended after 0.05s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-edgar" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-edgar-notifications" at "2026-11-06T22:51:51.9628263Z"
+[Licensing::Module] Licensing Background thread has ended after 0.04s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.21f1\Editor\Unity.exe
@@ -30,9 +30,9 @@ C:/Users/edgar/OneDrive/Documents/UNI WORK/INTRODUCTION-TO-MECHANICS-DESIGN/plat
 -logFile
 Logs/AssetImportWorker13.log
 -srvPort
-54229
+53361
 -parentPid
-30092
+35892
 -analyticsCloudUserId
 anonymous
 -analyticsCloudProjectId
@@ -90,12 +90,12 @@ C:/Users/edgar/OneDrive/Documents/UNI WORK/INTRODUCTION-TO-MECHANICS-DESIGN/plat
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [36536]  Target information:
+Player connection [31084]  Target information:
 
-Player connection [36536]  * "[IP] 192.168.0.63 [Port] 0 [Flags] 2 [Guid] 2509139273 [EditorId] 2509139273 [Version] 1048832 [Id] WindowsEditor(7,EdgarsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [31084]  * "[IP] 192.168.0.63 [Port] 0 [Flags] 2 [Guid] 2851735284 [EditorId] 2851735284 [Version] 1048832 [Id] WindowsEditor(7,EdgarsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [36536] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [36536] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31084] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31084] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -107,7 +107,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.07 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 7.55 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.21f1 (c02631ffc030)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -125,12 +125,12 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002311 seconds.
-- Loaded All Assemblies, in  0.410 seconds
+Registered in 0.002755 seconds.
+- Loaded All Assemblies, in  0.525 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -138,35 +138,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.401 seconds
-Domain Reload Profiling: 807ms
-	BeginReloadAssembly (133ms)
+- Finished resetting the current domain, in  0.471 seconds
+Domain Reload Profiling: 991ms
+	BeginReloadAssembly (180ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
+	RebuildCommonClasses (50ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (174ms)
-		LoadAssemblies (128ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (218ms)
+		LoadAssemblies (172ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (169ms)
-				TypeCache.ScanAssembly (155ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (212ms)
+				TypeCache.ScanAssembly (196ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (402ms)
+	FinalizeReload (472ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (348ms)
+		SetupLoadedEditorAssemblies (417ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (51ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (138ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -181,91 +181,378 @@ Domain Reload Profiling: 807ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.957 seconds
-Refreshing native plugins compatible for Editor in 3.57 ms, found 5 plugins.
+- Loaded All Assemblies, in  1.684 seconds
+Refreshing native plugins compatible for Editor in 4.44 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 3.76 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 5.32 ms, found 5 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.995 seconds
-Domain Reload Profiling: 1944ms
-	BeginReloadAssembly (181ms)
+- Finished resetting the current domain, in  1.350 seconds
+Domain Reload Profiling: 3016ms
+	BeginReloadAssembly (363ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (676ms)
-		LoadAssemblies (414ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (1136ms)
+		LoadAssemblies (769ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (365ms)
-			TypeCache.Refresh (245ms)
-				TypeCache.ScanAssembly (226ms)
-			BuildScriptInfoCaches (104ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (995ms)
+		AnalyzeDomain (563ms)
+			TypeCache.Refresh (395ms)
+				TypeCache.ScanAssembly (373ms)
+			BuildScriptInfoCaches (150ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1350ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (823ms)
+		SetupLoadedEditorAssemblies (1096ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (190ms)
-			ProcessInitializeOnLoadAttributes (461ms)
-			ProcessInitializeOnLoadMethodAttributes (155ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (23ms)
+			BeforeProcessingInitializeOnLoad (258ms)
+			ProcessInitializeOnLoadAttributes (607ms)
+			ProcessInitializeOnLoadMethodAttributes (191ms)
+			AfterProcessingInitializeOnLoad (13ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 4.25 ms, found 5 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 4.51 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
 Curl error 3: URL rejected: Malformed input to a URL function
-Unloading 7236 unused Assets / (5.0 MB). Loaded Objects now: 8045.
-Memory consumption went from 166.9 MB to 161.9 MB.
-Total: 13.437400 ms (FindLiveObjects: 0.933500 ms CreateObjectMapping: 1.316600 ms MarkObjects: 7.790400 ms  DeleteObjects: 3.396000 ms)
+Unloading 7242 unused Assets / (5.0 MB). Loaded Objects now: 8051.
+Memory consumption went from 167.2 MB to 162.2 MB.
+Total: 16.279400 ms (FindLiveObjects: 1.380100 ms CreateObjectMapping: 1.797100 ms MarkObjects: 9.217100 ms  DeleteObjects: 3.883300 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.268 seconds
+Refreshing native plugins compatible for Editor in 3.21 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.874 seconds
+Domain Reload Profiling: 2136ms
+	BeginReloadAssembly (346ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (785ms)
+		LoadAssemblies (649ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (292ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (260ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (874ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (686ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (185ms)
+			ProcessInitializeOnLoadAttributes (397ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 3.58 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7240 unused Assets / (5.0 MB). Loaded Objects now: 8055.
+Memory consumption went from 168.0 MB to 163.0 MB.
+Total: 12.288800 ms (FindLiveObjects: 0.939800 ms CreateObjectMapping: 1.233800 ms MarkObjects: 6.516400 ms  DeleteObjects: 3.598100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 257532.114967 seconds.
+  path: Assets/assessment 2/NewMonoBehaviourScript.cs
+  artifactKey: Guid(3606d71c43c3d9e4b8ad7be48ff56278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assessment 2/NewMonoBehaviourScript.cs using Guid(3606d71c43c3d9e4b8ad7be48ff56278) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73bb24d1df1aa6cdbf49da18fc50b227') in 0.010112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 154828.743489 seconds.
-  path: Assets/map/tilemap_130.asset
-  artifactKey: Guid(c966a31da0f645149985fa6504ea2977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/map/tilemap_130.asset using Guid(c966a31da0f645149985fa6504ea2977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efdfcf83789fff0df0fba132688e648e') in 0.0804895 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 1.599316 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/CodeEditor/Rendering/ITextViewConnect.cs
+  artifactKey: Guid(a89fad8b7780442baad70e115cc848a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/CodeEditor/Rendering/ITextViewConnect.cs using Guid(a89fad8b7780442baad70e115cc848a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36509be776a10a1a6bd1525e13df4074') in 0.0803334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/Localization/i3.zh-Hant.txt
+  artifactKey: Guid(3d9a394b78f3e4ba48aa868771edfcb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/Localization/i3.zh-Hant.txt using Guid(3d9a394b78f3e4ba48aa868771edfcb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a45d01dcd2cca82b3061849264c80590') in 0.0129113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Views/PendingChanges/CreatedChangesetData.cs
+  artifactKey: Guid(bec9a691c125414fb6dc237fe5dbdfaa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/Views/PendingChanges/CreatedChangesetData.cs using Guid(bec9a691c125414fb6dc237fe5dbdfaa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd28726d32ade36a06d82ba280ee78531') in 0.0111041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/Localization/clientcommon.ko.txt
+  artifactKey: Guid(49219f4ee5ecc4611aaf67609eeed843) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/Localization/clientcommon.ko.txt using Guid(49219f4ee5ecc4611aaf67609eeed843) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc19ac9653375503a7daf861333b82fb') in 0.0122003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/map/tilemap_84.asset
-  artifactKey: Guid(d775eb2f53465394f8e6489aaa26cc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/map/tilemap_84.asset using Guid(d775eb2f53465394f8e6489aaa26cc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d736010f04cb2c0979a0f4d25f08e9e') in 0.0153802 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  path: Packages/com.unity.collab-proxy/Lib/Editor/Localization/images.zh-Hans.txt
+  artifactKey: Guid(46969e2907e104a649761ed2ce5c9acd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/Localization/images.zh-Hans.txt using Guid(46969e2907e104a649761ed2ce5c9acd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3506256ebae7a07f5973865e3c9e47ba') in 0.0147091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Views/History/HistoryListHeaderState.cs
+  artifactKey: Guid(5b6e8a80709e2264eb383ef6b40e181f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/Views/History/HistoryListHeaderState.cs using Guid(5b6e8a80709e2264eb383ef6b40e181f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '64402f5204d499303fb120911e32ed02') in 0.0135474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/Localization/basecommands.es.txt
+  artifactKey: Guid(5b620c1ab90c8486aa98357a3d5aa245) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/Localization/basecommands.es.txt using Guid(5b620c1ab90c8486aa98357a3d5aa245) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '48d672951680384830dcd068c78f549b') in 0.0121465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/Localization/cm.es.txt
+  artifactKey: Guid(719a6e14901354868b50c5756cb51194) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/Localization/cm.es.txt using Guid(719a6e14901354868b50c5756cb51194) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da7370998873b931df7bc0775ea720e6') in 0.0134234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Views/PendingChanges/PendingChangesMultiColumnHeader.cs
+  artifactKey: Guid(e7b15873dbe9463cad67af4fac8e41ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/Views/PendingChanges/PendingChangesMultiColumnHeader.cs using Guid(e7b15873dbe9463cad67af4fac8e41ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61321cd936525c10ad656f050f7c3d91') in 0.0134428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Views/CreateWorkspace/CreateWorkspaceViewState.cs
+  artifactKey: Guid(41633509da720014cbd77f755b378ce7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/Views/CreateWorkspace/CreateWorkspaceViewState.cs using Guid(41633509da720014cbd77f755b378ce7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0f975f060e68d0c5a7303707ab9c25b') in 0.0120348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/UI/UndoRedo/UndoRedoHelper.cs
+  artifactKey: Guid(962c713f307637f459a3eb76c8aba5f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/UI/UndoRedo/UndoRedoHelper.cs using Guid(962c713f307637f459a3eb76c8aba5f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d3c1e723d275493b1959eea88eb0559') in 0.0109326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Views/Filters/FiltersPanel.cs
+  artifactKey: Guid(1ee8c894c1a3e644fb379a46b41222d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/Views/Filters/FiltersPanel.cs using Guid(1ee8c894c1a3e644fb379a46b41222d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '658cfbc0ab55b53c80f53a50114a0284') in 0.011066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/Localization/differences.ja.txt
+  artifactKey: Guid(aff69f03cce064727895a8e6867325c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/Localization/differences.ja.txt using Guid(aff69f03cce064727895a8e6867325c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98bdb1c2450d60b6bdc30f645f8de0e9') in 0.0117267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/CodeEditor/Utils/Deque.cs
+  artifactKey: Guid(fdf371b229de34c7a8f364e3cb759548) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/CodeEditor/Utils/Deque.cs using Guid(fdf371b229de34c7a8f364e3cb759548) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55d82e58807e3970f4d20e7da9215575') in 0.0117369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 3.82 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 4.42 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7218 unused Assets / (4.6 MB). Loaded Objects now: 8052.
-Memory consumption went from 165.5 MB to 160.9 MB.
-Total: 13.338300 ms (FindLiveObjects: 0.872200 ms CreateObjectMapping: 1.005800 ms MarkObjects: 7.266900 ms  DeleteObjects: 4.192800 ms)
+Unloading 7225 unused Assets / (3.4 MB). Loaded Objects now: 8057.
+Memory consumption went from 169.0 MB to 165.6 MB.
+Total: 14.635100 ms (FindLiveObjects: 1.361900 ms CreateObjectMapping: 0.828600 ms MarkObjects: 9.106800 ms  DeleteObjects: 3.336300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
+Received Import Request.
+  Time since last request: 1.956962 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/Localization/plastic-gui.zh-Hant.txt
+  artifactKey: Guid(647748199c4bd4ccfae42e62fc5a3acd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/Localization/plastic-gui.zh-Hant.txt using Guid(647748199c4bd4ccfae42e62fc5a3acd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b5f2c9dfe6a495c2a49dab36dee3eae') in 0.0142413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/UVCSToolbar/PopupWindow/Operations/UncontrolledPopupOperations.cs
+  artifactKey: Guid(e2d43d3b3af668e4fb7dbf4f2b7384e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/UVCSToolbar/PopupWindow/Operations/UncontrolledPopupOperations.cs using Guid(e2d43d3b3af668e4fb7dbf4f2b7384e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cbcc7d2c0a4af3d3bd199cbcc17d2e73') in 0.0140782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Configuration/CloudEdition/Welcome/OrganizationPanel.cs
+  artifactKey: Guid(615ff93ab52eb8242a9194d4f711676f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/Configuration/CloudEdition/Welcome/OrganizationPanel.cs using Guid(615ff93ab52eb8242a9194d4f711676f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69ff9c1b9f7dac39594a4fd78a0c7ce9') in 0.0315013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Configuration/CloudEdition/Welcome/WaitingSignInPanel.cs
+  artifactKey: Guid(077387e98bf29fb4a97bccfb592cfaf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/Configuration/CloudEdition/Welcome/WaitingSignInPanel.cs using Guid(077387e98bf29fb4a97bccfb592cfaf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27af8e7277c0b9d4f3917a39af94f482') in 0.0125054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Views/BranchExplorer/Virtualization/CanvasScrollView.cs
+  artifactKey: Guid(e894a18d7962e4847a912b6e5058a75e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/Views/BranchExplorer/Virtualization/CanvasScrollView.cs using Guid(e894a18d7962e4847a912b6e5058a75e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e8ec31859b232192ae4b0b4c221e4d3') in 0.0125904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/UI/UnityInternals/UnityEditor/HostView.cs
+  artifactKey: Guid(73186521cb8e4de3a13721da02015040) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/UI/UnityInternals/UnityEditor/HostView.cs using Guid(73186521cb8e4de3a13721da02015040) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52766da503a0a1248f61f836ff09ef2f') in 0.0512556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/Localization/xdiff.ko.txt
+  artifactKey: Guid(8cb079b2a5c1f44a4ae141b0f24ef6ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/Localization/xdiff.ko.txt using Guid(8cb079b2a5c1f44a4ae141b0f24ef6ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e4a351fe9393372e250780aa38a8425') in 0.0116684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Views/Merge/Gluon/IncomingChangesTreeHeaderState.cs
+  artifactKey: Guid(c0821447a35700c4280782d1092cf4c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/Views/Merge/Gluon/IncomingChangesTreeHeaderState.cs using Guid(c0821447a35700c4280782d1092cf4c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '898498e81853e5ce051b2ef4a11aea26') in 0.014939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Views/CreateWorkspace/Dialogs/RepositoriesListHeaderState.cs
+  artifactKey: Guid(da6a50477d2d7ff4f81d1c21c58a5b0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/Views/CreateWorkspace/Dialogs/RepositoriesListHeaderState.cs using Guid(da6a50477d2d7ff4f81d1c21c58a5b0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e23688bcd2aab541d65883f3fbd1746') in 0.014783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/Localization/xdiff.en.txt
+  artifactKey: Guid(219627149b7534b6b80dd713cf17c866) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/Localization/xdiff.en.txt using Guid(219627149b7534b6b80dd713cf17c866) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da729cf9ccd65d7b9923d27a0fb5e811') in 0.0141894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Views/BranchExplorer/Virtualization/VirtualShapeFactory.cs
+  artifactKey: Guid(be0d618f3c51404cb94628b6b6cdc8d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/Views/BranchExplorer/Virtualization/VirtualShapeFactory.cs using Guid(be0d618f3c51404cb94628b6b6cdc8d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53466f9ad843fd3c8926f3b732685e43') in 0.0153245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/CloudDrive/Workspaces/Tree/CloudWorkspacesTreeViewItem.cs
+  artifactKey: Guid(7deb947d51d34c76aa03ec6d3a07a4ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/CloudDrive/Workspaces/Tree/CloudWorkspacesTreeViewItem.cs using Guid(7deb947d51d34c76aa03ec6d3a07a4ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e49df49342452d8ebf6d4b42d271c95') in 0.0145284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Views/Merge/Developer/MergeTab.cs
+  artifactKey: Guid(4f04b21b06239da4f95a5a9753647440) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/Views/Merge/Developer/MergeTab.cs using Guid(4f04b21b06239da4f95a5a9753647440) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4fe95733372f76c76e731cf122d265b1') in 0.0157335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Views/BranchExplorer/Virtualization/VirtualCanvas.cs
+  artifactKey: Guid(cc8c3a097e504aeabef3c8c2f7669916) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/Views/BranchExplorer/Virtualization/VirtualCanvas.cs using Guid(cc8c3a097e504aeabef3c8c2f7669916) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cdbadb14a94f475a343c716a476e71f2') in 0.013171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/Localization/semantic.zh-Hant.txt
+  artifactKey: Guid(126d59d6b93214ad78fb154cae61c871) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/Localization/semantic.zh-Hant.txt using Guid(126d59d6b93214ad78fb154cae61c871) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0f7be1779fb31005f627ef3c3eddef9') in 0.0126861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/CloudDrive/Workspaces/DirectoryContent/NewNameDialog.cs
+  artifactKey: Guid(bc4f0ef4de664ad4db65a2ea866ffa47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.collab-proxy/Editor/CloudDrive/Workspaces/DirectoryContent/NewNameDialog.cs using Guid(bc4f0ef4de664ad4db65a2ea866ffa47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '553b48c21de6501ab7ac8b35e2d68fb9') in 0.0128125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.991 seconds
-Refreshing native plugins compatible for Editor in 3.46 ms, found 5 plugins.
+- Loaded All Assemblies, in  1.306 seconds
+Refreshing native plugins compatible for Editor in 3.73 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -275,45 +562,45 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.919 seconds
-Domain Reload Profiling: 1903ms
-	BeginReloadAssembly (264ms)
+- Finished resetting the current domain, in  1.099 seconds
+Domain Reload Profiling: 2396ms
+	BeginReloadAssembly (325ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (20ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (640ms)
-		LoadAssemblies (505ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (849ms)
+		LoadAssemblies (643ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (258ms)
+		AnalyzeDomain (362ms)
 			TypeCache.Refresh (19ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (222ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (919ms)
+			BuildScriptInfoCaches (323ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1099ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (731ms)
+		SetupLoadedEditorAssemblies (862ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (231ms)
-			ProcessInitializeOnLoadAttributes (409ms)
-			ProcessInitializeOnLoadMethodAttributes (77ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (243ms)
+			ProcessInitializeOnLoadAttributes (482ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (13ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 3.41 ms, found 5 plugins.
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 4.02 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7233 unused Assets / (4.3 MB). Loaded Objects now: 8055.
-Memory consumption went from 173.5 MB to 169.2 MB.
-Total: 9.896100 ms (FindLiveObjects: 0.910300 ms CreateObjectMapping: 0.917800 ms MarkObjects: 5.453100 ms  DeleteObjects: 2.614000 ms)
+Unloading 7240 unused Assets / (4.8 MB). Loaded Objects now: 8060.
+Memory consumption went from 168.9 MB to 164.1 MB.
+Total: 15.187400 ms (FindLiveObjects: 1.385500 ms CreateObjectMapping: 1.318800 ms MarkObjects: 8.805500 ms  DeleteObjects: 3.676000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

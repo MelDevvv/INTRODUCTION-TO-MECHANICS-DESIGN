@@ -13,8 +13,8 @@
                     <ui:VisualElement class="cube-mark-side" />
                 </ui:VisualElement>
                 <ui:VisualElement class="brand-copy">
-                    <ui:Label text="CUBE//RUN" class="brand-title" />
-                    <ui:Label text="2D PLATFORM ADVENTURE" class="brand-subtitle" />
+                    <ui:Label text="NOT A REAL" class="brand-title" />
+                    <ui:Label text="PLATFORMER // 2D ADVENTURE" class="brand-subtitle" />
                 </ui:VisualElement>
             </ui:VisualElement>
             <ui:VisualElement class="hud-right">
@@ -26,16 +26,20 @@
                     <ui:Label text="LEVEL" class="hud-stat-title" />
                     <ui:Label name="level-name" text="01" class="hud-stat-value" />
                 </ui:VisualElement>
+                <ui:VisualElement class="hud-stat timer-stat">
+                    <ui:Label text="RUN TIME" class="hud-stat-title" />
+                    <ui:Label name="run-timer" text="00:00.00" class="hud-stat-value timer-value" />
+                    <ui:Label name="best-time" text="BEST  --:--.--" class="timer-best" />
+                </ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>
 
-        <!-- Bottom gameplay hint -->
-        <ui:VisualElement name="controls-hint" class="controls-hint">
-            <ui:Label text="MOVE" class="hint-key" />
-            <ui:Label text="A / D  OR  ARROW KEYS" class="hint-copy" />
-            <ui:VisualElement class="hint-divider" />
-            <ui:Label text="JUMP" class="hint-key" />
-            <ui:Label text="SPACE" class="hint-copy" />
+        <!-- Start prompt: the player remains animated until any input is pressed. -->
+        <ui:VisualElement name="start-prompt" class="start-prompt">
+            <ui:VisualElement class="start-prompt-accent" />
+            <ui:Label text="PRESS ANY BUTTON" class="start-prompt-title" />
+            <ui:Label text="TO BEGIN YOUR RUN" class="start-prompt-subtitle" />
+            <ui:Label text="A / D MOVE     SPACE JUMP     CTRL PRECISION WALK" class="start-prompt-controls" />
         </ui:VisualElement>
 
         <!-- Signpost Interaction Prompt -->
@@ -68,22 +72,16 @@
                 <ui:VisualElement class="menu-paper">
                     <ui:VisualElement class="menu-eyebrow-row">
                         <ui:VisualElement class="status-pixel" />
-                        <ui:Label name="screen-kicker" text="A LITTLE PIXEL ADVENTURE" class="menu-eyebrow" />
+                        <ui:Label name="screen-kicker" text="TAKE A BREATHER" class="menu-eyebrow" />
                     </ui:VisualElement>
-                    <ui:Label name="screen-title" text="CUBE//RUN" class="menu-title" />
-                    <ui:Label name="screen-description" text="Run, jump and find your way across the world." class="menu-description" />
-                    <ui:VisualElement class="tile-divider">
-                        <ui:VisualElement class="tile-divider-green" />
-                        <ui:VisualElement class="tile-divider-tan" />
-                        <ui:VisualElement class="tile-divider-blue" />
-                        <ui:VisualElement class="tile-divider-orange" />
-                    </ui:VisualElement>
+                    <ui:Label name="screen-title" text="PAUSED" class="menu-title" />
+                    <ui:Label name="screen-description" text="Your run is paused. Take a moment before jumping back in." class="menu-description" />
                     <ui:VisualElement class="button-stack">
-                        <ui:Button name="primary-button" text="START GAME" class="pixel-button primary-button" />
-                        <ui:Button name="secondary-button" text="QUIT GAME" class="pixel-button secondary-button" />
-                        <ui:Button name="tertiary-button" text="MAIN MENU" class="pixel-button tertiary-button hidden" />
+                        <ui:Button name="primary-button" text="RESUME GAME" class="pixel-button primary-button" />
+                        <ui:Button name="secondary-button" text="RESTART LEVEL" class="pixel-button secondary-button" />
+                        <ui:Button name="tertiary-button" text="MAIN MENU" class="pixel-button tertiary-button" />
                     </ui:VisualElement>
-                    <ui:Label name="screen-footer" text="A / D OR ARROWS TO MOVE     SPACE TO JUMP" class="menu-footer" />
+                    <ui:Label name="screen-footer" text="PRESS ESC TO RESUME" class="menu-footer" />
                 </ui:VisualElement>
                 <ui:VisualElement class="dirt-trim">
                     <ui:VisualElement class="dirt-pixel dirt-pixel-one" />
@@ -97,6 +95,24 @@
         <ui:VisualElement name="toast" class="toast">
             <ui:VisualElement class="toast-icon" />
             <ui:Label name="toast-label" text="LEVEL RESTARTED" class="toast-label" />
+        </ui:VisualElement>
+
+        <!-- Full-screen loading transition used when returning to MainMenu. -->
+        <ui:VisualElement name="scene-loading-overlay" class="scene-loading-overlay">
+            <ui:VisualElement class="scene-loading-panel">
+                <ui:VisualElement class="scene-loading-emblem">
+                    <ui:VisualElement class="scene-loading-emblem-top" />
+                    <ui:VisualElement class="scene-loading-emblem-front" />
+                    <ui:VisualElement class="scene-loading-emblem-side" />
+                </ui:VisualElement>
+                <ui:Label text="NOT A REAL PLATFORMER" class="scene-loading-brand" />
+                <ui:Label name="scene-loading-title" text="RETURNING TO MAIN MENU" class="scene-loading-title" />
+                <ui:Label text="GETTING THINGS READY..." class="scene-loading-subtitle" />
+                <ui:VisualElement class="scene-loading-bar">
+                    <ui:VisualElement name="scene-loading-bar-fill" class="scene-loading-bar-fill" />
+                </ui:VisualElement>
+                <ui:Label text="PLEASE WAIT" class="scene-loading-footer" />
+            </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
