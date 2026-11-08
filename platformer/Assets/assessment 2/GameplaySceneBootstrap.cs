@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections;
 using UnityEngine;
@@ -21,6 +22,28 @@ public class GameplaySceneBootstrap : MonoBehaviour
     [Header("Transitions")]
     [SerializeField] private float loadingTransitionDuration = 0.3f;
 
+    [Header("UI Sounds")]
+    [SerializeField] private AudioSource uiAudioSource;
+    [SerializeField] private AudioClip buttonHoverSound;
+    [SerializeField] private AudioClip buttonClickSound;
+
+    [Range(0f, 1f)]
+    [SerializeField] private float hoverVolume = 0.2f;
+
+    [Range(0f, 1f)]
+    [SerializeField] private float clickVolume = 0.4f;
+
+    [Header("Pause Music")]
+    [SerializeField] private AudioSource gameplayMusicSource;
+    [SerializeField] private AudioClip pauseMusicClip;
+    [SerializeField] private AudioSource pauseMusicSource;
+
+    [Range(0f, 1f)]
+    [SerializeField] private float pauseMusicVolume = 1f;
+
+    [Header("Death")]
+    [SerializeField] private float deathRestartDelay = 1f;
+
     private VisualElement root;
     private VisualElement startPrompt;
     private VisualElement screenOverlay;
@@ -41,6 +64,8 @@ public class GameplaySceneBootstrap : MonoBehaviour
     private bool gameplayStarted;
     private bool isPaused;
     private bool isLoading;
+    private bool isDying;
+    private bool gameplayMusicWasPlaying;
 
     private void Awake()
     {
@@ -48,13 +73,49 @@ public class GameplaySceneBootstrap : MonoBehaviour
             uiDocument = GetComponent<UIDocument>();
 
         Time.timeScale = 1f;
+
+        SetupAudioSources();
+    }
+
+    // ==================================================
+    // AUDIO SETUP
+    // ==================================================
+
+    private void SetupAudioSources()
+    {
+        if (uiAudioSource == null)
+            uiAudioSource = gameObject.AddComponent<AudioSource>();
+
+        uiAudioSource.playOnAwake = false;
+        uiAudioSource.loop = false;
+        uiAudioSource.spatialBlend = 0f;
+        uiAudioSource.ignoreListenerPause = true;
+        uiAudioSource.volume = 1f;
+
+        if (pauseMusicSource == null ||
+            pauseMusicSource == uiAudioSource ||
+            pauseMusicSource == gameplayMusicSource)
+        {
+            pauseMusicSource = gameObject.AddComponent<AudioSource>();
+        }
+
+        pauseMusicSource.playOnAwake = false;
+        pauseMusicSource.loop = true;
+        pauseMusicSource.spatialBlend = 0f;
+        pauseMusicSource.ignoreListenerPause = true;
+        pauseMusicSource.volume = pauseMusicVolume;
+        pauseMusicSource.clip = pauseMusicClip;
     }
 
     private void Start()
     {
         if (uiDocument == null)
         {
-            Debug.LogError("GameplaySceneBootstrap requires a UIDocument.", this);
+            Debug.LogError(
+                "GameplaySceneBootstrap requires a UIDocument.",
+                this
+            );
+
             enabled = false;
             return;
         }
@@ -86,28 +147,34 @@ public class GameplaySceneBootstrap : MonoBehaviour
 
         if (playerController == null)
         {
-            Debug.LogError("GameplaySceneBootstrap cannot find PlayerController.", this);
+            Debug.LogError(
+                "GameplaySceneBootstrap cannot find PlayerController.",
+                this
+            );
+
             enabled = false;
             return;
         }
 
-        // Register the pause menu buttons directly.
+        // Register hover sounds for all buttons.
+        root.Query<Button>().ForEach(RegisterButtonAudio);
+
+        // Register pause menu actions.
         if (resumeButton != null)
-            resumeButton.clicked += ResumeGame;
+            resumeButton.clicked += OnResumeClicked;
         else
-            Debug.LogError("Missing primary-button in PlatformerUI.uxml.", this);
+            Debug.LogError("Missing primary-button.", this);
 
         if (restartButton != null)
-            restartButton.clicked += RestartLevel;
+            restartButton.clicked += OnRestartClicked;
         else
-            Debug.LogError("Missing secondary-button in PlatformerUI.uxml.", this);
+            Debug.LogError("Missing secondary-button.", this);
 
         if (mainMenuButton != null)
-            mainMenuButton.clicked += ReturnToMainMenu;
+            mainMenuButton.clicked += OnMainMenuClicked;
         else
-            Debug.LogError("Missing tertiary-button in PlatformerUI.uxml.", this);
+            Debug.LogError("Missing tertiary-button.", this);
 
-        // Keep player animation running, but disable gameplay controls.
         playerController.SetGameplayInputEnabled(false);
         playerController.SetStartPreviewActive(true);
 
@@ -132,23 +199,129 @@ public class GameplaySceneBootstrap : MonoBehaviour
             {
                 if (!gameplayStarted && startPrompt != null)
                     startPrompt.AddToClassList("is-visible");
+
             }).StartingIn(30);
         }
         else
         {
-            Debug.LogError("Missing start-prompt in PlatformerUI.uxml.", this);
+            Debug.LogError("Missing start-prompt.", this);
         }
 
-        // Any keyboard, mouse or gamepad button starts the level.
-        InputSystem.onAnyButtonPress.CallOnce(HandleAnyButtonPressed);
+        InputSystem.onAnyButtonPress.CallOnce(
+            HandleAnyButtonPressed
+        );
     }
 
-    private void Update()
+    // ==================================================
+    // UI BUTTON AUDIO
+    // ==================================================
+
+    private void RegisterButtonAudio(Button button)
+    {
+        if (button == null)
+            return;
+
+        button.RegisterCallback<PointerEnterEvent>(
+            OnButtonPointerEnter
+        );
+    }
+
+    private void OnButtonPointerEnter(PointerEnterEvent evt)
     {
         if (isLoading)
             return;
 
-        // Escape toggles pause/resume.
+        PlayHoverSound();
+    }
+
+    private void PlayHoverSound()
+    {
+        if (buttonHoverSound == null || uiAudioSource == null)
+            return;
+
+        uiAudioSource.PlayOneShot(
+            buttonHoverSound,
+            hoverVolume
+        );
+    }
+
+    private void PlayClickSound()
+    {
+        if (buttonClickSound == null || uiAudioSource == null)
+            return;
+
+        uiAudioSource.PlayOneShot(
+            buttonClickSound,
+            clickVolume
+        );
+    }
+
+    // ==================================================
+    // BUTTON ACTIONS
+    // ==================================================
+
+    private void OnResumeClicked()
+    {
+        if (isLoading || isDying)
+            return;
+
+        PlayClickSound();
+        ResumeGame();
+    }
+
+    private void OnRestartClicked()
+    {
+        if (isLoading || isDying)
+            return;
+
+        PlayClickSound();
+
+        StartCoroutine(RestartAfterClickSound());
+    }
+
+    private void OnMainMenuClicked()
+    {
+        if (isLoading || isDying)
+            return;
+
+        PlayClickSound();
+
+        StartCoroutine(MainMenuAfterClickSound());
+    }
+
+    private IEnumerator RestartAfterClickSound()
+    {
+        yield return WaitForClickSound();
+
+        RestartLevel();
+    }
+
+    private IEnumerator MainMenuAfterClickSound()
+    {
+        yield return WaitForClickSound();
+
+        ReturnToMainMenu();
+    }
+
+    private IEnumerator WaitForClickSound()
+    {
+        if (buttonClickSound != null)
+        {
+            yield return new WaitForSecondsRealtime(
+                buttonClickSound.length
+            );
+        }
+    }
+
+    // ==================================================
+    // UPDATE / INPUT
+    // ==================================================
+
+    private void Update()
+    {
+        if (isLoading || isDying)
+            return;
+
         if (gameplayStarted &&
             Keyboard.current != null &&
             Keyboard.current.escapeKey.wasPressedThisFrame)
@@ -161,7 +334,6 @@ public class GameplaySceneBootstrap : MonoBehaviour
             return;
         }
 
-        // Gamepad Start toggles pause/resume.
         if (gameplayStarted &&
             Gamepad.current != null &&
             Gamepad.current.startButton.wasPressedThisFrame)
@@ -174,7 +346,6 @@ public class GameplaySceneBootstrap : MonoBehaviour
             return;
         }
 
-        // Allow analogue stick movement to start the run.
         if (!gameplayStarted)
         {
             foreach (Gamepad gamepad in Gamepad.all)
@@ -190,19 +361,23 @@ public class GameplaySceneBootstrap : MonoBehaviour
     }
 
     // ==================================================
-    // ANY INPUT STARTS GAMEPLAY
+    // START GAMEPLAY
     // ==================================================
 
     private void HandleAnyButtonPressed(InputControl control)
     {
-        if (gameplayStarted || isLoading)
+        if (gameplayStarted || isLoading || isDying)
             return;
 
-        // Escape is reserved for pausing.
         if (control.device is Keyboard &&
-            control.path.EndsWith("/escape", StringComparison.OrdinalIgnoreCase))
+            control.path.EndsWith(
+                "/escape",
+                StringComparison.OrdinalIgnoreCase))
         {
-            InputSystem.onAnyButtonPress.CallOnce(HandleAnyButtonPressed);
+            InputSystem.onAnyButtonPress.CallOnce(
+                HandleAnyButtonPressed
+            );
+
             return;
         }
 
@@ -211,7 +386,7 @@ public class GameplaySceneBootstrap : MonoBehaviour
 
     private void StartGameplay()
     {
-        if (gameplayStarted || isLoading)
+        if (gameplayStarted || isLoading || isDying)
             return;
 
         gameplayStarted = true;
@@ -230,17 +405,58 @@ public class GameplaySceneBootstrap : MonoBehaviour
             {
                 if (startPrompt != null)
                     startPrompt.style.display = DisplayStyle.None;
+
             }).StartingIn(240);
         }
     }
 
     // ==================================================
-    // PAUSE MENU
+    // PAUSE MUSIC
+    // ==================================================
+
+    private void StartPauseMusic()
+    {
+        gameplayMusicWasPlaying = false;
+
+        if (gameplayMusicSource != null &&
+            gameplayMusicSource.isPlaying)
+        {
+            gameplayMusicWasPlaying = true;
+            gameplayMusicSource.Pause();
+        }
+
+        if (pauseMusicSource != null &&
+            pauseMusicClip != null)
+        {
+            pauseMusicSource.clip = pauseMusicClip;
+            pauseMusicSource.volume = pauseMusicVolume;
+            pauseMusicSource.loop = true;
+
+            pauseMusicSource.Play();
+        }
+    }
+
+    private void StopPauseMusic()
+    {
+        if (pauseMusicSource != null)
+            pauseMusicSource.Stop();
+
+        if (gameplayMusicSource != null &&
+            gameplayMusicWasPlaying)
+        {
+            gameplayMusicSource.UnPause();
+        }
+
+        gameplayMusicWasPlaying = false;
+    }
+
+    // ==================================================
+    // PAUSE GAME
     // ==================================================
 
     private void PauseGame()
     {
-        if (!gameplayStarted || isPaused || isLoading)
+        if (!gameplayStarted || isPaused || isLoading || isDying)
             return;
 
         isPaused = true;
@@ -249,6 +465,8 @@ public class GameplaySceneBootstrap : MonoBehaviour
 
         if (levelTimer != null)
             levelTimer.PauseTimer();
+
+        StartPauseMusic();
 
         Time.timeScale = 0f;
 
@@ -259,7 +477,8 @@ public class GameplaySceneBootstrap : MonoBehaviour
             screenTitle.text = "PAUSED";
 
         if (screenDescription != null)
-            screenDescription.text = "Your run is paused. What would you like to do?";
+            screenDescription.text =
+                "Your run is paused. What would you like to do?";
 
         if (screenFooter != null)
             screenFooter.text = "PRESS ESC TO RESUME";
@@ -287,18 +506,25 @@ public class GameplaySceneBootstrap : MonoBehaviour
             {
                 if (isPaused && menuFrame != null)
                     menuFrame.AddToClassList("menu-entered");
+
             }).StartingIn(20);
         }
     }
 
+    // ==================================================
+    // RESUME GAME
+    // ==================================================
+
     private void ResumeGame()
     {
-        if (!isPaused || isLoading)
+        if (!isPaused || isLoading || isDying)
             return;
 
         isPaused = false;
 
         Time.timeScale = 1f;
+
+        StopPauseMusic();
 
         if (screenOverlay != null)
         {
@@ -316,13 +542,33 @@ public class GameplaySceneBootstrap : MonoBehaviour
     }
 
     // ==================================================
-    // RESTART LEVEL
+    // PLAYER DEATH
     // ==================================================
 
-    private void RestartLevel()
+    public void PlayerDied(float restartDelay)
     {
-        if (isLoading)
+        if (isLoading || isDying)
             return;
+
+        isDying = true;
+        isPaused = false;
+
+        if (playerController != null)
+            playerController.SetGameplayInputEnabled(false);
+
+        if (levelTimer != null)
+            levelTimer.PauseTimer();
+
+        StopPauseMusic();
+
+        StartCoroutine(DeathRestartRoutine(restartDelay));
+    }
+
+    private IEnumerator DeathRestartRoutine(float restartDelay)
+    {
+        yield return new WaitForSecondsRealtime(
+            Mathf.Max(0f, restartDelay)
+        );
 
         string currentScene = SceneManager.GetActiveScene().name;
 
@@ -333,11 +579,48 @@ public class GameplaySceneBootstrap : MonoBehaviour
                 this
             );
 
+            isDying = false;
+            yield break;
+        }
+
+        isDying = false;
+
+        StartCoroutine(
+            LoadSceneWithScreen(
+                currentScene,
+                "RESTARTING AFTER DEATH"
+            )
+        );
+    }
+
+    // ==================================================
+    // RESTART LEVEL
+    // ==================================================
+
+    private void RestartLevel()
+    {
+        if (isLoading || isDying)
+            return;
+
+        string currentScene =
+            SceneManager.GetActiveScene().name;
+
+        if (!Application.CanStreamedLevelBeLoaded(currentScene))
+        {
+            Debug.LogError(
+                $"Cannot reload scene '{currentScene}'. " +
+                "Check the Build Profile Scene List.",
+                this
+            );
+
             return;
         }
 
         StartCoroutine(
-            LoadSceneWithScreen(currentScene, "RESTARTING LEVEL")
+            LoadSceneWithScreen(
+                currentScene,
+                "RESTARTING LEVEL"
+            )
         );
     }
 
@@ -347,13 +630,14 @@ public class GameplaySceneBootstrap : MonoBehaviour
 
     private void ReturnToMainMenu()
     {
-        if (isLoading)
+        if (isLoading || isDying)
             return;
 
         if (!Application.CanStreamedLevelBeLoaded(mainMenuSceneName))
         {
             Debug.LogError(
-                $"Scene '{mainMenuSceneName}' is missing from the active Build Profile Scene List.",
+                $"Scene '{mainMenuSceneName}' is missing " +
+                "from the active Build Profile Scene List.",
                 this
             );
 
@@ -361,7 +645,10 @@ public class GameplaySceneBootstrap : MonoBehaviour
         }
 
         StartCoroutine(
-            LoadSceneWithScreen(mainMenuSceneName, "RETURNING TO MAIN MENU")
+            LoadSceneWithScreen(
+                mainMenuSceneName,
+                "RETURNING TO MAIN MENU"
+            )
         );
     }
 
@@ -369,15 +656,20 @@ public class GameplaySceneBootstrap : MonoBehaviour
     // LOADING SCREEN
     // ==================================================
 
-    private IEnumerator LoadSceneWithScreen(string sceneName, string loadingMessage)
+    private IEnumerator LoadSceneWithScreen(
+        string sceneName,
+        string loadingMessage)
     {
         if (isLoading)
             yield break;
 
         isLoading = true;
         isPaused = false;
+        isDying = false;
 
         Time.timeScale = 1f;
+
+        StopPauseMusic();
 
         if (playerController != null)
             playerController.SetGameplayInputEnabled(false);
@@ -407,16 +699,22 @@ public class GameplaySceneBootstrap : MonoBehaviour
             loadingOverlay.AddToClassList("is-visible");
         }
 
-        yield return new WaitForSecondsRealtime(loadingTransitionDuration);
-
-        AsyncOperation operation = SceneManager.LoadSceneAsync(
-            sceneName,
-            LoadSceneMode.Single
+        yield return new WaitForSecondsRealtime(
+            loadingTransitionDuration
         );
+
+        AsyncOperation operation =
+            SceneManager.LoadSceneAsync(
+                sceneName,
+                LoadSceneMode.Single
+            );
 
         if (operation == null)
         {
-            Debug.LogError($"Could not begin loading scene '{sceneName}'.", this);
+            Debug.LogError(
+                $"Could not begin loading scene '{sceneName}'.",
+                this
+            );
 
             isLoading = false;
             Time.timeScale = 1f;
@@ -428,7 +726,9 @@ public class GameplaySceneBootstrap : MonoBehaviour
 
         while (operation.progress < 0.9f)
         {
-            float progress = Mathf.Clamp01(operation.progress / 0.9f);
+            float progress = Mathf.Clamp01(
+                operation.progress / 0.9f
+            );
 
             if (loadingBarFill != null)
             {
@@ -454,15 +754,27 @@ public class GameplaySceneBootstrap : MonoBehaviour
 
     private void OnDestroy()
     {
-        // Remove button callbacks so they cannot be registered twice.
         if (resumeButton != null)
-            resumeButton.clicked -= ResumeGame;
+            resumeButton.clicked -= OnResumeClicked;
 
         if (restartButton != null)
-            restartButton.clicked -= RestartLevel;
+            restartButton.clicked -= OnRestartClicked;
 
         if (mainMenuButton != null)
-            mainMenuButton.clicked -= ReturnToMainMenu;
+            mainMenuButton.clicked -= OnMainMenuClicked;
+
+        if (root != null)
+        {
+            root.Query<Button>().ForEach(button =>
+            {
+                button.UnregisterCallback<PointerEnterEvent>(
+                    OnButtonPointerEnter
+                );
+            });
+        }
+
+        if (pauseMusicSource != null)
+            pauseMusicSource.Stop();
 
         Time.timeScale = 1f;
     }

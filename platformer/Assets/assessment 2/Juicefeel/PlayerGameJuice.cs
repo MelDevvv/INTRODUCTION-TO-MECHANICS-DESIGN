@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -38,6 +37,21 @@ public class PlayerGameJuice : MonoBehaviour
 
     [Min(0f)]
     [SerializeField] private float minimumDownwardSpeed = 1f;
+
+    [Header("Landing Audio")]
+    [SerializeField] private AudioSource landingAudioSource;
+    [SerializeField] private AudioClip smallLandingSound;
+    [SerializeField] private AudioClip bigLandingSound;
+
+    [Tooltip("Falls shorter than this use the small landing sound. Falls at or above it use the big landing sound.")]
+    [Min(0.1f)]
+    [SerializeField] private float bigLandingThreshold = 3f;
+
+    [Range(0f, 1f)]
+    [SerializeField] private float smallLandingVolume = 0.65f;
+
+    [Range(0f, 1f)]
+    [SerializeField] private float bigLandingVolume = 1f;
 
     [Header("Camera Fall Shake")]
     [Min(0f)]
@@ -99,6 +113,17 @@ public class PlayerGameJuice : MonoBehaviour
 
         if (cameraFollow == null && Camera.main != null)
             cameraFollow = Camera.main.GetComponent<CameraFollow>();
+
+        // Automatically create an audio source if one isn't assigned.
+        if (landingAudioSource == null)
+            landingAudioSource = GetComponent<AudioSource>();
+
+        if (landingAudioSource == null)
+            landingAudioSource = gameObject.AddComponent<AudioSource>();
+
+        landingAudioSource.playOnAwake = false;
+        landingAudioSource.loop = false;
+        landingAudioSource.spatialBlend = 0f;
 
         originalScale = visualRoot.localScale;
         targetScale = originalScale;
@@ -247,6 +272,9 @@ public class PlayerGameJuice : MonoBehaviour
         if (!hasFallenEnough || !landedHardEnough)
             return;
 
+        // Play the appropriate landing sound.
+        PlayLandingSound(fallDistance);
+
         // Landing dust and squash still work for ordinary jumps.
         SpawnLandingDust(fallDistance);
         Squash();
@@ -278,6 +306,34 @@ public class PlayerGameJuice : MonoBehaviour
                 impactSpeed
             );
         }
+    }
+
+    // --------------------------------------------------
+    // LANDING AUDIO
+    // --------------------------------------------------
+
+    private void PlayLandingSound(float fallDistance)
+    {
+        if (landingAudioSource == null)
+            return;
+
+        bool isBigLanding = fallDistance >= bigLandingThreshold;
+
+        AudioClip selectedSound = isBigLanding
+            ? bigLandingSound
+            : smallLandingSound;
+
+        float selectedVolume = isBigLanding
+            ? bigLandingVolume
+            : smallLandingVolume;
+
+        if (selectedSound == null)
+            return;
+
+        landingAudioSource.PlayOneShot(
+            selectedSound,
+            selectedVolume
+        );
     }
 
     // --------------------------------------------------
