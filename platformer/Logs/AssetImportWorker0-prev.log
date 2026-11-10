@@ -1,21 +1,21 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.21f1 (c02631ffc030) revision 12592689'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32665 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-edgar" at "2026-11-08T14:50:30.5284247Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-edgar" at "2026-11-08T17:26:38.787033Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-11-08T14:50:30Z
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 26376, path: "C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+Date: 2026-11-08T17:26:38Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 8728, path: "C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              11a94026b26c4fae960c3472d1be5aff
-  Correlation Id:          6d23c93fedcad0987a028c499247b2ac
-  External correlation Id: 8701751007763455985
+  Session Id:              3165b3fc773a402f95ea44f9fa420f2e
+  Correlation Id:          26686eea3291061ed2ced112c0a06786
+  External correlation Id: 4870146562343331134
   Machine Id:              gRrhJjxWoT1JuF56KWHhYZ/28CQ=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-edgar" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-edgar-notifications" at "2026-11-08T14:50:30.5699176Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-edgar-notifications" at "2026-11-08T17:26:38.8306968Z"
 [Licensing::Module] Licensing Background thread has ended after 0.04s
 
 COMMAND LINE ARGUMENTS:
@@ -30,9 +30,9 @@ C:/Users/edgar/OneDrive/Documents/UNI WORK/INTRODUCTION-TO-MECHANICS-DESIGN/plat
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55049
+53671
 -parentPid
-29132
+31428
 -analyticsCloudUserId
 anonymous
 -analyticsCloudProjectId
@@ -90,12 +90,12 @@ C:/Users/edgar/OneDrive/Documents/UNI WORK/INTRODUCTION-TO-MECHANICS-DESIGN/plat
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [35224]  Target information:
+Player connection [37260]  Target information:
 
-Player connection [35224]  * "[IP] 192.168.0.63 [Port] 0 [Flags] 2 [Guid] 1029833335 [EditorId] 1029833335 [Version] 1048832 [Id] WindowsEditor(7,EdgarsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [37260]  * "[IP] 192.168.0.63 [Port] 0 [Flags] 2 [Guid] 1103378619 [EditorId] 1103378619 [Version] 1048832 [Id] WindowsEditor(7,EdgarsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [35224] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [35224] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [37260] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37260] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -107,7 +107,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 5.28 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 6.04 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.21f1 (c02631ffc030)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -125,12 +125,12 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002662 seconds.
-- Loaded All Assemblies, in  0.452 seconds
+Registered in 0.002575 seconds.
+- Loaded All Assemblies, in  0.492 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -138,35 +138,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.435 seconds
-Domain Reload Profiling: 882ms
-	BeginReloadAssembly (159ms)
+- Finished resetting the current domain, in  0.464 seconds
+Domain Reload Profiling: 951ms
+	BeginReloadAssembly (173ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (154ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (166ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (174ms)
-				TypeCache.ScanAssembly (159ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (163ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (435ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (464ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (382ms)
+		SetupLoadedEditorAssemblies (403ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (48ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (5ms)
 			BeforeProcessingInitializeOnLoad (95ms)
-			ProcessInitializeOnLoadAttributes (156ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -177,94 +177,69 @@ Domain Reload Profiling: 882ms
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Curl error 3: URL rejected: Malformed input to a URL function
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.233 seconds
-Refreshing native plugins compatible for Editor in 3.90 ms, found 5 plugins.
+- Loaded All Assemblies, in  0.929 seconds
+Refreshing native plugins compatible for Editor in 3.47 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 4.75 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 3.42 ms, found 5 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.207 seconds
-Domain Reload Profiling: 2428ms
-	BeginReloadAssembly (256ms)
+- Finished resetting the current domain, in  0.891 seconds
+Domain Reload Profiling: 1811ms
+	BeginReloadAssembly (211ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (839ms)
-		LoadAssemblies (572ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (613ms)
+		LoadAssemblies (416ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (416ms)
-			TypeCache.Refresh (276ms)
-				TypeCache.ScanAssembly (259ms)
-			BuildScriptInfoCaches (127ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1207ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (192ms)
+			BuildScriptInfoCaches (93ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (891ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1002ms)
+		SetupLoadedEditorAssemblies (722ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (241ms)
-			ProcessInitializeOnLoadAttributes (555ms)
-			ProcessInitializeOnLoadMethodAttributes (186ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 4.51 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 3.10 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
 Curl error 3: URL rejected: Malformed input to a URL function
-Unloading 7242 unused Assets / (5.1 MB). Loaded Objects now: 8051.
-Memory consumption went from 169.2 MB to 164.1 MB.
-Total: 14.333100 ms (FindLiveObjects: 1.353700 ms CreateObjectMapping: 1.341000 ms MarkObjects: 7.837700 ms  DeleteObjects: 3.799600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 401442.435238 seconds.
-  path: Assets/assessment 2/PlatformerUI.uxml
-  artifactKey: Guid(2e05e221708eb8149b35bd2dd430dd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assessment 2/PlatformerUI.uxml using Guid(2e05e221708eb8149b35bd2dd430dd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9897c7911bf4f0c18dcf8ee66898a93f') in 0.106032 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/assessment 2/MainMenu.uxml
-  artifactKey: Guid(ab3f8d9bfe806ea41b959f077e1897ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assessment 2/MainMenu.uxml using Guid(ab3f8d9bfe806ea41b959f077e1897ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20d8503d96ffc0fa9fcb76e108e11352') in 0.0075208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/assessment 2/PlatformerUI.uss
-  artifactKey: Guid(6075b4cd9b6952946842eecdf1ed92fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assessment 2/PlatformerUI.uss using Guid(6075b4cd9b6952946842eecdf1ed92fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f16ec39d163b621c11365d95c38473c') in 0.0045139 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+Unloading 7244 unused Assets / (4.9 MB). Loaded Objects now: 8054.
+Memory consumption went from 165.5 MB to 160.6 MB.
+Total: 11.922200 ms (FindLiveObjects: 0.802600 ms CreateObjectMapping: 1.152000 ms MarkObjects: 6.695000 ms  DeleteObjects: 3.271800 ms)
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.835 seconds
-Refreshing native plugins compatible for Editor in 3.69 ms, found 5 plugins.
+- Loaded All Assemblies, in  0.922 seconds
+Refreshing native plugins compatible for Editor in 3.39 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -274,53 +249,53 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.785 seconds
-Domain Reload Profiling: 1616ms
-	BeginReloadAssembly (229ms)
+- Finished resetting the current domain, in  0.792 seconds
+Domain Reload Profiling: 1707ms
+	BeginReloadAssembly (263ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (17ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (525ms)
-		LoadAssemblies (394ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (565ms)
+		LoadAssemblies (439ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (209ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (785ms)
+			BuildScriptInfoCaches (220ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (792ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (614ms)
+		SetupLoadedEditorAssemblies (626ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (172ms)
-			ProcessInitializeOnLoadAttributes (343ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (364ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
 			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 3.04 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 3.28 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7240 unused Assets / (5.0 MB). Loaded Objects now: 8058.
-Memory consumption went from 170.8 MB to 165.8 MB.
-Total: 10.197900 ms (FindLiveObjects: 0.855500 ms CreateObjectMapping: 1.023700 ms MarkObjects: 5.673800 ms  DeleteObjects: 2.644100 ms)
+Unloading 7242 unused Assets / (4.7 MB). Loaded Objects now: 8058.
+Memory consumption went from 166.3 MB to 161.6 MB.
+Total: 10.600500 ms (FindLiveObjects: 0.767500 ms CreateObjectMapping: 0.947200 ms MarkObjects: 6.304300 ms  DeleteObjects: 2.580700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.815 seconds
-Refreshing native plugins compatible for Editor in 2.82 ms, found 5 plugins.
+- Loaded All Assemblies, in  0.800 seconds
+Refreshing native plugins compatible for Editor in 3.02 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -330,108 +305,53 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.731 seconds
-Domain Reload Profiling: 1542ms
-	BeginReloadAssembly (225ms)
+- Finished resetting the current domain, in  0.760 seconds
+Domain Reload Profiling: 1556ms
+	BeginReloadAssembly (230ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (506ms)
-		LoadAssemblies (383ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (220ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (198ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (731ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (574ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (154ms)
-			ProcessInitializeOnLoadAttributes (331ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 3.09 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7240 unused Assets / (4.8 MB). Loaded Objects now: 8061.
-Memory consumption went from 175.8 MB to 171.0 MB.
-Total: 10.527200 ms (FindLiveObjects: 0.869000 ms CreateObjectMapping: 1.051000 ms MarkObjects: 5.850700 ms  DeleteObjects: 2.755800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.824 seconds
-Refreshing native plugins compatible for Editor in 3.06 ms, found 5 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.739 seconds
-Domain Reload Profiling: 1559ms
-	BeginReloadAssembly (227ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (16ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (50ms)
 	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (513ms)
-		LoadAssemblies (396ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (487ms)
+		LoadAssemblies (380ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (219ms)
+		AnalyzeDomain (210ms)
 			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (198ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (740ms)
+			BuildScriptInfoCaches (189ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (760ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (581ms)
+		SetupLoadedEditorAssemblies (601ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (162ms)
-			ProcessInitializeOnLoadAttributes (334ms)
+			ProcessInitializeOnLoadAttributes (356ms)
 			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (1ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 3.61 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 3.10 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7240 unused Assets / (4.7 MB). Loaded Objects now: 8064.
-Memory consumption went from 178.9 MB to 174.2 MB.
-Total: 11.014500 ms (FindLiveObjects: 0.960100 ms CreateObjectMapping: 1.060000 ms MarkObjects: 6.106000 ms  DeleteObjects: 2.887700 ms)
+Unloading 7242 unused Assets / (4.0 MB). Loaded Objects now: 8061.
+Memory consumption went from 169.4 MB to 165.4 MB.
+Total: 9.237000 ms (FindLiveObjects: 0.807400 ms CreateObjectMapping: 1.044800 ms MarkObjects: 5.047800 ms  DeleteObjects: 2.336400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.830 seconds
-Refreshing native plugins compatible for Editor in 2.97 ms, found 5 plugins.
+- Loaded All Assemblies, in  0.813 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -441,9 +361,9 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.734 seconds
-Domain Reload Profiling: 1559ms
-	BeginReloadAssembly (224ms)
+- Finished resetting the current domain, in  0.743 seconds
+Domain Reload Profiling: 1552ms
+	BeginReloadAssembly (230ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (15ms)
 		BackupInstance (0ms)
@@ -452,944 +372,161 @@ Domain Reload Profiling: 1559ms
 	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (12ms)
 	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (521ms)
-		LoadAssemblies (399ms)
+	LoadAllAssembliesAndSetupDomain (498ms)
+		LoadAssemblies (386ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (223ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (203ms)
+			BuildScriptInfoCaches (195ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (734ms)
+	FinalizeReload (744ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (574ms)
+		SetupLoadedEditorAssemblies (590ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (153ms)
-			ProcessInitializeOnLoadAttributes (340ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (345ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.10 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7242 unused Assets / (4.8 MB). Loaded Objects now: 8064.
+Memory consumption went from 172.5 MB to 167.7 MB.
+Total: 10.032400 ms (FindLiveObjects: 0.777100 ms CreateObjectMapping: 0.919500 ms MarkObjects: 5.703500 ms  DeleteObjects: 2.631700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 411510.020875 seconds.
+  path: Assets/assessment 1
+  artifactKey: Guid(81aee0052f5aa94449c1945b944e0265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assessment 1 using Guid(81aee0052f5aa94449c1945b944e0265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2004260bb4da2bb8d97a34adef50103') in 0.0103773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.847133 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66293c064eedbf34fa140287a3155684') in 0.0007425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.834 seconds
+Refreshing native plugins compatible for Editor in 2.86 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.740 seconds
+Domain Reload Profiling: 1570ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (526ms)
+		LoadAssemblies (400ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (201ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (741ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (571ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.08 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7242 unused Assets / (4.3 MB). Loaded Objects now: 8069.
+Memory consumption went from 167.3 MB to 163.0 MB.
+Total: 8.932400 ms (FindLiveObjects: 0.802300 ms CreateObjectMapping: 0.387400 ms MarkObjects: 5.071100 ms  DeleteObjects: 2.671100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.834 seconds
+Refreshing native plugins compatible for Editor in 3.43 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.737 seconds
+Domain Reload Profiling: 1569ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (527ms)
+		LoadAssemblies (398ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (225ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (204ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (737ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (584ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (346ms)
 			ProcessInitializeOnLoadMethodAttributes (68ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 2.97 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 3.17 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7240 unused Assets / (4.6 MB). Loaded Objects now: 8067.
-Memory consumption went from 182.0 MB to 177.3 MB.
-Total: 9.975200 ms (FindLiveObjects: 0.780500 ms CreateObjectMapping: 0.947400 ms MarkObjects: 5.685900 ms  DeleteObjects: 2.560800 ms)
+Unloading 7242 unused Assets / (4.4 MB). Loaded Objects now: 8072.
+Memory consumption went from 170.4 MB to 166.0 MB.
+Total: 8.947300 ms (FindLiveObjects: 0.741000 ms CreateObjectMapping: 0.826100 ms MarkObjects: 5.256500 ms  DeleteObjects: 2.123200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.842 seconds
-Refreshing native plugins compatible for Editor in 3.08 ms, found 5 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.758 seconds
-Domain Reload Profiling: 1596ms
-	BeginReloadAssembly (232ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (519ms)
-		LoadAssemblies (406ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (216ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (196ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (758ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (600ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (162ms)
-			ProcessInitializeOnLoadAttributes (354ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 3.09 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7240 unused Assets / (4.8 MB). Loaded Objects now: 8070.
-Memory consumption went from 185.0 MB to 180.2 MB.
-Total: 11.093700 ms (FindLiveObjects: 0.969200 ms CreateObjectMapping: 1.174400 ms MarkObjects: 5.886900 ms  DeleteObjects: 3.062200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 2600.078592 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68274266e78a023382f86102dab494b6') in 0.2476142 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/map/tilemap_106.asset
-  artifactKey: Guid(15f0cd1a529f26f4896b1cfba82f9f08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_106.asset using Guid(15f0cd1a529f26f4896b1cfba82f9f08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6238e3d6323d638dc3c05e75cf5ed45') in 0.0377598 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/map/tilemap_160.asset
-  artifactKey: Guid(67a6c47a2007ba9419a61c3f4896f464) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_160.asset using Guid(67a6c47a2007ba9419a61c3f4896f464) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '81da6a4b4331449f53c7c96e8e44c863') in 0.0130544 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/map/tilemap_158.asset
-  artifactKey: Guid(2786afb84932c7e41af76e94768929bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_158.asset using Guid(2786afb84932c7e41af76e94768929bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a911fa8d42e42aa233231a5ce1d8c314') in 0.0124825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/map/tilemap_10.asset
-  artifactKey: Guid(79831aed4945bef4ca7677ec1bedb873) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_10.asset using Guid(79831aed4945bef4ca7677ec1bedb873) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19d9e026150eb5dcc6b49cdf78137e72') in 0.0118804 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/map/tilemap_161.asset
-  artifactKey: Guid(cb397ef5ea15a3b4e82efdb4a9a974df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_161.asset using Guid(cb397ef5ea15a3b4e82efdb4a9a974df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11c690329addf13fc97f9707a0abef56') in 0.011643 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/map/tilemap_101.asset
-  artifactKey: Guid(1798e4d1e284778489a440de2867790a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_101.asset using Guid(1798e4d1e284778489a440de2867790a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cca4cac0f9a16f2035f24e6cbcfd817e') in 0.0125914 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/assessment 2/Moving dust.prefab
-  artifactKey: Guid(7749a9a581fdb6a45b84b9818a5b6bc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/assessment 2/Moving dust.prefab using Guid(7749a9a581fdb6a45b84b9818a5b6bc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02d806ba7f655d4257126eb288158aae') in 0.0937349 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/map/tilemap_118.asset
-  artifactKey: Guid(2ac96f664f83b104a8d00befc96f738b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_118.asset using Guid(2ac96f664f83b104a8d00befc96f738b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98a2d0d1586a8dc6a252e76a4d08308b') in 0.0117208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/assessment 2/PlayerController.GameplayInputGate.cs
-  artifactKey: Guid(3606d71c43c3d9e4b8ad7be48ff56278) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/assessment 2/PlayerController.GameplayInputGate.cs using Guid(3606d71c43c3d9e4b8ad7be48ff56278) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1725ddd343c559b8719638d9f73313a4') in 0.0122137 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/map/tilemap_140.asset
-  artifactKey: Guid(989fb2360b3a9b94196fdd47b928479c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_140.asset using Guid(989fb2360b3a9b94196fdd47b928479c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a7d0dd30695ff2434c4407739728a0d') in 0.0122564 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/map/tilemap_13.asset
-  artifactKey: Guid(be7cf86205f67454e933c431fd5efb1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_13.asset using Guid(be7cf86205f67454e933c431fd5efb1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c64a633c63849ac6fe7dad4125fcba42') in 0.0159666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/map/tilemap_154.asset
-  artifactKey: Guid(59dbf54844ee85946ae5260cfea9ac58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_154.asset using Guid(59dbf54844ee85946ae5260cfea9ac58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a010430619e00c2794cf0ac826881987') in 0.0138089 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/map/New Tile Palette.prefab
-  artifactKey: Guid(9dcde373ef4553a44a1b5431808df4e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/New Tile Palette.prefab using Guid(9dcde373ef4553a44a1b5431808df4e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db6b394f7fefb976785459c9b3113355') in 0.0254074 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/map/tilemap_131.asset
-  artifactKey: Guid(d7c63e92ba661c54698ba5a4969aa58d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_131.asset using Guid(d7c63e92ba661c54698ba5a4969aa58d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6daefa2216cdbbdbbcb835bac24e2cdd') in 0.0115178 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/map/tilemap_165.asset
-  artifactKey: Guid(035ba7729f068d0439676a981fa3b2ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_165.asset using Guid(035ba7729f068d0439676a981fa3b2ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '434f337f6187160fb58c200e2aa2c3a7') in 0.0161438 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/map/tilemap_105.asset
-  artifactKey: Guid(81b3c06b3717a9f49bed6e8c4d88020f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_105.asset using Guid(81b3c06b3717a9f49bed6e8c4d88020f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '534149c5781d79edda79f91d04e330ca') in 0.0111623 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/assessment 2/GameplaySceneBootstrap.cs
-  artifactKey: Guid(3e346517e489a2d4691974043f72ac73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/assessment 2/GameplaySceneBootstrap.cs using Guid(3e346517e489a2d4691974043f72ac73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35b16515afc1d3cc2d37d322e9484ae3') in 0.0110437 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/map/tilemap_116.asset
-  artifactKey: Guid(30dea6a1f8b731b409015f1b67094677) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_116.asset using Guid(30dea6a1f8b731b409015f1b67094677) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10a048412e020ec54fb91df011fb95e6') in 0.016115 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/map/tilemap_120.asset
-  artifactKey: Guid(8324a6d793fa4654da288138edb5d430) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_120.asset using Guid(8324a6d793fa4654da288138edb5d430) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '30d13bd51bf029154abaab140eae1578') in 0.0162814 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/map/tilemap_159.asset
-  artifactKey: Guid(bd759c8220fc2d04988017e43cf30814) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_159.asset using Guid(bd759c8220fc2d04988017e43cf30814) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0457a864d42b29961c09865afeb06465') in 0.0126553 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/map/tilemap_144.asset
-  artifactKey: Guid(501181f5667447847a8793883f21b3c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_144.asset using Guid(501181f5667447847a8793883f21b3c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6c5d094e815013065eb974073e3fbe6') in 0.0128235 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/map/tilemap_162.asset
-  artifactKey: Guid(3c076cb476ed2f946a18e4bbafb47802) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_162.asset using Guid(3c076cb476ed2f946a18e4bbafb47802) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8dc5133a31757c8093efb043826bfd96') in 0.0126313 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/assessment 2/PlatformerUI.uss
-  artifactKey: Guid(6075b4cd9b6952946842eecdf1ed92fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/assessment 2/PlatformerUI.uss using Guid(6075b4cd9b6952946842eecdf1ed92fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '05fbef7eeb8bf43d022eaca5f7058014') in 0.0241982 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/assessment 2/MainMenuController.cs
-  artifactKey: Guid(037f3e77cecd1ad4bbe914b632448405) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/assessment 2/MainMenuController.cs using Guid(037f3e77cecd1ad4bbe914b632448405) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43c37916c087bea499fec1559160635a') in 0.0110818 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.862082 seconds.
-  path: Assets/map/tilemap_17.asset
-  artifactKey: Guid(04329e025a764f94c89a5c6926942ebf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_17.asset using Guid(04329e025a764f94c89a5c6926942ebf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42a45edc7732e943bdc850f467800493') in 0.0134868 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/map/tilemap_23.asset
-  artifactKey: Guid(25f04a1177fc72a4c8a5a3f82eacb0d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_23.asset using Guid(25f04a1177fc72a4c8a5a3f82eacb0d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '609436c04c3a4217eb7e8289ac34b52d') in 0.0135886 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/map/tilemap_178.asset
-  artifactKey: Guid(7511eaee38195d44ca74ec45b18ae96b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_178.asset using Guid(7511eaee38195d44ca74ec45b18ae96b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e20b839b0757da4f23aeabb195392eb') in 0.0129915 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/map/tilemap_33.asset
-  artifactKey: Guid(87130e7dc10fb5c45a079ecce5570c74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_33.asset using Guid(87130e7dc10fb5c45a079ecce5570c74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65c67fa8372836b2d7c1ea62dccfe91c') in 0.0177198 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/map/tilemap_174.asset
-  artifactKey: Guid(b37a6a9f5595d1b429571349f973ba4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_174.asset using Guid(b37a6a9f5595d1b429571349f973ba4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd92891bbce047584fd4712b644d94a4') in 0.0154263 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/map/tilemap_170.asset
-  artifactKey: Guid(07183ca12575fbf488c9da573b47ba73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_170.asset using Guid(07183ca12575fbf488c9da573b47ba73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dfad8b58d8158b6f9f318c334fdd2693') in 0.0125403 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/map/tilemap_173.asset
-  artifactKey: Guid(d4b75e75ff1a8894ca0c4faec84d5cdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_173.asset using Guid(d4b75e75ff1a8894ca0c4faec84d5cdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '108b666575b7b23ba7fdf7f7aa32101c') in 0.0135109 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/map/tilemap_172.asset
-  artifactKey: Guid(18dd3fa2825074f4783acb131aac18b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_172.asset using Guid(18dd3fa2825074f4783acb131aac18b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8ad4bd87dca4bfe77a132694a88e50d6') in 0.013831 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/map/tilemap_175.asset
-  artifactKey: Guid(3d9c28f20fe5adc419b234c1ccb2d844) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_175.asset using Guid(3d9c28f20fe5adc419b234c1ccb2d844) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'befb8e424e1db5fd271c3fa3f9b3c53a') in 0.0162225 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/map/tilemap_37.asset
-  artifactKey: Guid(fe48091d821a0a24aaba66fd1e2ff308) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_37.asset using Guid(fe48091d821a0a24aaba66fd1e2ff308) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '74a5e7bea1b2af91bc171879931e7007') in 0.0138412 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/map/tilemap_24.asset
-  artifactKey: Guid(0c1dfefaf17018144bbd6a5ff755e2bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_24.asset using Guid(0c1dfefaf17018144bbd6a5ff755e2bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c5894970fc7e0273d4cd93afb0ad94c') in 0.0136587 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/map/tilemap_53.asset
-  artifactKey: Guid(7cee035127de5fb4893c9fd0eb501883) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_53.asset using Guid(7cee035127de5fb4893c9fd0eb501883) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5218277c2cd9ba125a48e1b6f371864a') in 0.0156217 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/map/tilemap_41.asset
-  artifactKey: Guid(5b1ea22442ef8744c8c040f8201ac353) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_41.asset using Guid(5b1ea22442ef8744c8c040f8201ac353) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ccd0b8f06b5cd4d12b578e7d2bc381f') in 0.0146277 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/map/tilemap_176.asset
-  artifactKey: Guid(0af152dc7afe2624abbf4b0177e3f7e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_176.asset using Guid(0af152dc7afe2624abbf4b0177e3f7e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9eb7b6526bc28cb7baff31a790344d12') in 0.0122066 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/map/tilemap_20.asset
-  artifactKey: Guid(d1a5d63143a2e4a45a8c303283aab193) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_20.asset using Guid(d1a5d63143a2e4a45a8c303283aab193) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ef451cd7e4de22341a582ab09721279') in 0.0142709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/map/tilemap_177.asset
-  artifactKey: Guid(bcc48411750cbfb40b377a9cb9a1d9bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_177.asset using Guid(bcc48411750cbfb40b377a9cb9a1d9bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4c594c373e54b5bcb075dca92a0b633') in 0.0129686 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/map/tilemap_25.asset
-  artifactKey: Guid(b2286c4fd7735b64e9d9dc5f33fd1d0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_25.asset using Guid(b2286c4fd7735b64e9d9dc5f33fd1d0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '91aa01f305e72ab46be53259917fe0b6') in 0.0113678 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/map/tilemap_171.asset
-  artifactKey: Guid(c53b2f8e0e19f2c47bb7840e08c0e68c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_171.asset using Guid(c53b2f8e0e19f2c47bb7840e08c0e68c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43451fb4f30ba627811198e47a942e5f') in 0.0137975 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/map/tilemap_40.asset
-  artifactKey: Guid(43d26d1bf6ac6f84b8290ff35f493f10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_40.asset using Guid(43d26d1bf6ac6f84b8290ff35f493f10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b9300ffcd425ea0882fbd1dfa4c2200') in 0.0117939 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/map/tilemap_32.asset
-  artifactKey: Guid(cce310032441ce94285f733414c491b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_32.asset using Guid(cce310032441ce94285f733414c491b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '094f31f601a4eac250978a3f6685bf76') in 0.0127415 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/map/tilemap_49.asset
-  artifactKey: Guid(f8a30d5c45c88d8429b9e61cfb133119) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_49.asset using Guid(f8a30d5c45c88d8429b9e61cfb133119) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f7d4c03877a29b4e87bc3a2377b0600') in 0.0140268 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/map/tilemap_31.asset
-  artifactKey: Guid(2cd66ff6498d2204baa7d0e5250011ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_31.asset using Guid(2cd66ff6498d2204baa7d0e5250011ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7c867a440358cce21a54257a76fe726') in 0.0146626 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/map/tilemap_179.asset
-  artifactKey: Guid(03b0f79208c392444add8be08b604693) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_179.asset using Guid(03b0f79208c392444add8be08b604693) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ac4e2c677a1ea89fd04b187c1344290') in 0.0154527 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/map/tilemap_2.asset
-  artifactKey: Guid(13edd71e4ec48cb43adcf403791e0b00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_2.asset using Guid(13edd71e4ec48cb43adcf403791e0b00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd4d19da11a520d313689bec24e7e643') in 0.0123989 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/map/tilemap_22.asset
-  artifactKey: Guid(ca3f1e65228669347b6b90caaa6f5c78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_22.asset using Guid(ca3f1e65228669347b6b90caaa6f5c78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fcf80c594ec44949bd352f9a3fe22032') in 0.0140909 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/map/tilemap_5.asset
-  artifactKey: Guid(854bf7c9b27267343a1474a3291327a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_5.asset using Guid(854bf7c9b27267343a1474a3291327a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '809a7f07df4c62e5f8f4069eddda1170') in 0.0156129 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/map/tilemap_18.asset
-  artifactKey: Guid(17d4ec204e0ec064399e3c294cbb4571) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_18.asset using Guid(17d4ec204e0ec064399e3c294cbb4571) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11fa198eac0f3b8a0777566ad0223b1e') in 0.0110052 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.010090 seconds.
-  path: Assets/map/tilemap_57.asset
-  artifactKey: Guid(8892158f3b4a503409349fa9932134e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_57.asset using Guid(8892158f3b4a503409349fa9932134e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e99afa36933b55ddd6cd7e97d2e1b1e3') in 0.0124616 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
-  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f908fde368b00fd524320786139398a') in 0.0588702 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/map/tilemap_65.asset
-  artifactKey: Guid(d5dc85849ac8e3b44ba2b790fd87994f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_65.asset using Guid(d5dc85849ac8e3b44ba2b790fd87994f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3516a42f28831cd2488f69bf0d127b5a') in 0.0106056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/map/tilemap_61.asset
-  artifactKey: Guid(119422a483821cf4392c5899636d61e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_61.asset using Guid(119422a483821cf4392c5899636d61e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2631b2e8e6e7b983aba92d961cba2cf4') in 0.0128186 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/map/tilemap_87.asset
-  artifactKey: Guid(80d435469a5a51d4aa877f1eb10e1db1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_87.asset using Guid(80d435469a5a51d4aa877f1eb10e1db1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bdcdc237ba4a81df6f4bc75cac1a997a') in 0.0126456 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/map/tilemap_73.asset
-  artifactKey: Guid(ba664e0a4b99ac34ca00cb9ee8944759) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_73.asset using Guid(ba664e0a4b99ac34ca00cb9ee8944759) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fae30dd09ffb1393d888d7419322ba43') in 0.0119092 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/map/tilemap_9.asset
-  artifactKey: Guid(4e19ed42042de6740b9a31278372e348) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_9.asset using Guid(4e19ed42042de6740b9a31278372e348) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b39f79500ffb1417c1b6319c29cfabb4') in 0.0111625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/map/tilemap_75.asset
-  artifactKey: Guid(b27e3bd15dd17b74a9586f05c902df8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_75.asset using Guid(b27e3bd15dd17b74a9586f05c902df8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b3ec6b530dcb42bb140a0538f8e3e154') in 0.0110934 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/map/tilemap_80.asset
-  artifactKey: Guid(fb057ed5fc03f0f4abe9540a4eade514) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_80.asset using Guid(fb057ed5fc03f0f4abe9540a4eade514) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1eaa1c72f4a68309828f51f19cd9fa20') in 0.013837 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.328839 seconds.
-  path: Assets/tilemap/SampleA.png
-  artifactKey: Guid(bdec2d21c2b43eb45a16615928c6e289) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/tilemap/SampleA.png using Guid(bdec2d21c2b43eb45a16615928c6e289) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '156575c616c3f88b02d118f91db7b248') in 0.0559194 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/tilemap/Construct 3/Pixel Platformer.c3p
-  artifactKey: Guid(43c9316ba82c971428d5d31528f28ee6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/tilemap/Construct 3/Pixel Platformer.c3p using Guid(43c9316ba82c971428d5d31528f28ee6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16c1051792191c99971c2318543b9ebf') in 0.0128637 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
-  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c575e83710cbd311a1dbc352798800fd') in 0.0171294 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
-  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '484568437c702107e28f53de186acc4f') in 0.0186289 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
-  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db62aa1b16381f52507b10e0af12c8a6') in 0.0125515 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/tilemap/Tilesheet (Tiles).txt
-  artifactKey: Guid(382769acc1d00d74c8277f14f077d4d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/tilemap/Tilesheet (Tiles).txt using Guid(382769acc1d00d74c8277f14f077d4d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0c547f665b23813b3e32284255ce168') in 0.0125382 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
-  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38f0636f720fbe874fe513f7263c23ed') in 0.0107877 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/assessment 1/Forgivess mechanics/PlayerForgiveness_Ledges.cs
-  artifactKey: Guid(ebf7a6b77b86e004fa89464f0ddc8be6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/assessment 1/Forgivess mechanics/PlayerForgiveness_Ledges.cs using Guid(ebf7a6b77b86e004fa89464f0ddc8be6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a38f6f61c97330f2d2de681bb6fdea60') in 0.0108603 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/tilemap/Tiled/tilemap-example-b.tmx
-  artifactKey: Guid(83faa10080bf7c042bd9472d15172c3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/tilemap/Tiled/tilemap-example-b.tmx using Guid(83faa10080bf7c042bd9472d15172c3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bbdb68c8d535dca0624c0732d8f1219b') in 0.0111662 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.25 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7225 unused Assets / (4.1 MB). Loaded Objects now: 8070.
-Memory consumption went from 174.2 MB to 170.0 MB.
-Total: 14.875900 ms (FindLiveObjects: 1.015000 ms CreateObjectMapping: 1.530700 ms MarkObjects: 8.965100 ms  DeleteObjects: 3.364100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.272854 seconds.
-  path: Assets/assessment 2/Landing Dust.prefab
-  artifactKey: Guid(0cdd77082f0cd8142b1d2ef3f85c8faf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/assessment 2/Landing Dust.prefab using Guid(0cdd77082f0cd8142b1d2ef3f85c8faf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '167e3550cfe79fe21b4b3a25ecc047a1') in 0.0296043 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/tilemap/Tiles/tile_0031.png
-  artifactKey: Guid(13c7c02d3167c25409ed89f774ba237b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/tilemap/Tiles/tile_0031.png using Guid(13c7c02d3167c25409ed89f774ba237b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '410bc00233d8a69db803dd32a5a15aea') in 0.0152711 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/tilemap/Tiles/tile_0005.png
-  artifactKey: Guid(9768bfa85be641145a4731f190143bf8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/tilemap/Tiles/tile_0005.png using Guid(9768bfa85be641145a4731f190143bf8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fdb2d6078df96d39135876e83b698e0d') in 0.0177702 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/tilemap/Tiles/tile_0024.png
-  artifactKey: Guid(23d1876a6c763d743a2487daa5a6029d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/tilemap/Tiles/tile_0024.png using Guid(23d1876a6c763d743a2487daa5a6029d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b13123c86848967c76bb46650b2e82c') in 0.0144147 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/map/tilemap_107.asset
-  artifactKey: Guid(1d18b625167e5c34d93117745da71ac9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_107.asset using Guid(1d18b625167e5c34d93117745da71ac9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ab20ddb55d22d2ba9a9c953aca3fb3f') in 0.0148756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/tilemap/Tiles/tile_0009.png
-  artifactKey: Guid(28fd01502a44ed74bb0d6cb808b74b4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/tilemap/Tiles/tile_0009.png using Guid(28fd01502a44ed74bb0d6cb808b74b4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5facc53ba5b17059d56fced04603bfa3') in 0.0167418 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/map/tilemap_113.asset
-  artifactKey: Guid(a3fa4315cdf031549863b7029ea17cb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_113.asset using Guid(a3fa4315cdf031549863b7029ea17cb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e40b7ea841de72165efc8dcb5b574d2') in 0.0130099 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/map/tilemap_102.asset
-  artifactKey: Guid(7e8379d4fc56a7d4dbeb40672d4b7e29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_102.asset using Guid(7e8379d4fc56a7d4dbeb40672d4b7e29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ab82366dc703398eac1ae397faf4c8f') in 0.0126377 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/tilemap/Tiles/tile_0013.png
-  artifactKey: Guid(0f59ae5d7ebd5194dbe4c9258cd0e0ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/tilemap/Tiles/tile_0013.png using Guid(0f59ae5d7ebd5194dbe4c9258cd0e0ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '66fb4f997248f8037bcd707b6ca1c36c') in 0.0144894 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/map/tilemap_104.asset
-  artifactKey: Guid(8652417e1c7d72c4eb67c2d598378759) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_104.asset using Guid(8652417e1c7d72c4eb67c2d598378759) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b3abbfa635dc7d9b5320ab57cd63137') in 0.0138243 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/tilemap/Tilemap/tilemap-characters_packed.png
-  artifactKey: Guid(f1b93cafcf62e504889b60e1595995d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/tilemap/Tilemap/tilemap-characters_packed.png using Guid(f1b93cafcf62e504889b60e1595995d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '544957e3cdb78ba2e5e753c3aa861699') in 0.0390014 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/map/tilemap_103.asset
-  artifactKey: Guid(8eb9b0a9600c08d4a862e15d6a767d34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_103.asset using Guid(8eb9b0a9600c08d4a862e15d6a767d34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd5cd6289f0fe0998db6fc19f3b8e8850') in 0.0115239 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/map/tilemap_127.asset
-  artifactKey: Guid(a9a4357eb8b2ce843a369e15530b077b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_127.asset using Guid(a9a4357eb8b2ce843a369e15530b077b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bae14e7abb11222d8e73e1321632e331') in 0.0128503 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/tilemap/Tiles/tile_0020.png
-  artifactKey: Guid(a56253492cdbb4d45a0974fcd2bef1d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/tilemap/Tiles/tile_0020.png using Guid(a56253492cdbb4d45a0974fcd2bef1d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '043f499213e46f8fa60e06e45a845292') in 0.0173525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/tilemap/Tiles/tile_0008.png
-  artifactKey: Guid(6ecb5fc9e5941e7489d514cace9ca59b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/tilemap/Tiles/tile_0008.png using Guid(6ecb5fc9e5941e7489d514cace9ca59b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '163130d911257aeb3be5daa5f4a77495') in 0.0199868 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/map/tilemap_117.asset
-  artifactKey: Guid(bf737e590212c734fa5cfb1812774c42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_117.asset using Guid(bf737e590212c734fa5cfb1812774c42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0298d9c958652c53235ee7bc4d9f6c55') in 0.0156884 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/map/tilemap_11.asset
-  artifactKey: Guid(a75c03dd8a330be4983fe8649090e8ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tilemap_11.asset using Guid(a75c03dd8a330be4983fe8649090e8ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e762a40cd1f0043282adc41a5b65003') in 0.0140523 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.637801 seconds.
-  path: Assets/tilemap/Tiles/tile_0047.png
-  artifactKey: Guid(817d4c8e457008843bcb71ce7d556bcb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/tilemap/Tiles/tile_0047.png using Guid(817d4c8e457008843bcb71ce7d556bcb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c50af43b27c51a597a64bdc515c71377') in 0.0151362 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/tilemap/Tiles/tile_0136.png
-  artifactKey: Guid(66bc3b2a2d70fdc45b962bd11ad21271) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/tilemap/Tiles/tile_0136.png using Guid(66bc3b2a2d70fdc45b962bd11ad21271) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e82bf47b593fbb55a8beda4c4fd2c1d') in 0.014505 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/tilemap/Tiles/tile_0126.png
-  artifactKey: Guid(b7f6bae465a19374e8e819cf5170b07e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/tilemap/Tiles/tile_0126.png using Guid(b7f6bae465a19374e8e819cf5170b07e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab22fdfe48000b879698be3f366405fe') in 0.0161107 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.055 seconds
-Refreshing native plugins compatible for Editor in 3.48 ms, found 5 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.821 seconds
-Domain Reload Profiling: 1870ms
-	BeginReloadAssembly (284ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (675ms)
-		LoadAssemblies (556ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (257ms)
-			TypeCache.Refresh (21ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (222ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (822ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (640ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (169ms)
-			ProcessInitializeOnLoadAttributes (373ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 3.27 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7240 unused Assets / (4.5 MB). Loaded Objects now: 8073.
-Memory consumption went from 173.3 MB to 168.7 MB.
-Total: 11.206100 ms (FindLiveObjects: 0.837300 ms CreateObjectMapping: 1.384300 ms MarkObjects: 5.902600 ms  DeleteObjects: 3.080700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.64 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7225 unused Assets / (3.8 MB). Loaded Objects now: 8073.
-Memory consumption went from 176.4 MB to 172.5 MB.
-Total: 14.548100 ms (FindLiveObjects: 1.694200 ms CreateObjectMapping: 1.339200 ms MarkObjects: 8.718900 ms  DeleteObjects: 2.794700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.112 seconds
-Refreshing native plugins compatible for Editor in 3.66 ms, found 5 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.808 seconds
-Domain Reload Profiling: 1914ms
-	BeginReloadAssembly (287ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (64ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (717ms)
-		LoadAssemblies (579ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (272ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (238ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (808ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (635ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (173ms)
-			ProcessInitializeOnLoadAttributes (367ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 3.50 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7240 unused Assets / (4.5 MB). Loaded Objects now: 8076.
-Memory consumption went from 179.3 MB to 174.9 MB.
-Total: 12.308800 ms (FindLiveObjects: 0.952500 ms CreateObjectMapping: 1.343400 ms MarkObjects: 6.655600 ms  DeleteObjects: 3.356100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
