@@ -114,5 +114,51 @@
                 <ui:Label text="PLEASE WAIT" class="scene-loading-footer" />
             </ui:VisualElement>
         </ui:VisualElement>
+
+        <!-- LEVEL COMPLETION SCREEN -->
+        <ui:VisualElement name="completion-overlay" class="completion-overlay">
+            <ui:VisualElement name="completion-panel" class="completion-panel">
+                <ui:VisualElement class="completion-top-trim">
+                    <ui:VisualElement class="completion-top-pixel" />
+                    <ui:VisualElement class="completion-top-pixel completion-top-pixel-small" />
+                    <ui:VisualElement class="completion-top-pixel" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="completion-content">
+                    <ui:VisualElement class="completion-eyebrow-row">
+                        <ui:VisualElement class="completion-status-pixel" />
+                        <ui:Label text="RUN RESULTS // LEVEL CLEAR" class="completion-eyebrow" />
+                    </ui:VisualElement>
+
+                    <ui:Label name="completion-title" text="LEVEL COMPLETE!" class="completion-title" />
+                    <ui:Label text="YOU MADE IT THROUGH." class="completion-description" />
+
+
+                    <ui:VisualElement class="completion-time-card">
+                        <ui:Label text="YOUR TIME" class="completion-time-heading" />
+                        <ui:Label name="completion-run-time" text="00:00.00" class="completion-run-time" />
+                        <ui:VisualElement class="completion-time-separator" />
+                        <ui:Label text="PERSONAL BEST" class="completion-best-heading" />
+                        <ui:Label name="completion-best-time" text="--:--.--" class="completion-best-time" />
+                    </ui:VisualElement>
+
+                    <ui:Label name="completion-status" text="Get ready for the next level." class="completion-status" />
+
+                    <ui:VisualElement class="completion-button-stack">
+                        <ui:Button name="completion-next-button" text="NEXT LEVEL  →" class="completion-button completion-primary" />
+                        <ui:Button name="completion-restart-button" text="RESTART LEVEL" class="completion-button completion-secondary" />
+                        <ui:Button name="completion-menu-button" text="MAIN MENU" class="completion-button completion-tertiary" />
+                    </ui:VisualElement>
+
+                    <ui:Label text="NOT A REAL PLATFORMER  //  KEEP MOVING" class="completion-footer" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="completion-bottom-trim">
+                    <ui:VisualElement class="completion-bottom-pixel" />
+                    <ui:VisualElement class="completion-bottom-pixel completion-bottom-pixel-small" />
+                    <ui:VisualElement class="completion-bottom-pixel" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

@@ -3,15 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|c:\\users\\edgar\\onedrive\\documents\\uni work\\introduction-to-mechanics-design\\platformer\\assets\\assessment 2\\playerdeathcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|c:\\users\\edgar\\onedrive\\documents\\uni work\\introduction-to-mechanics-design\\platformer\\assets\\assessment 2\\ui\\levelcompletioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\ui\\levelcompletioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\assets\\assessment 2\\ui\\levelfinishtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\ui\\levelfinishtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\assets\\assessment 2\\ui\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\ui\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\assets\\assessment 2\\playerdeathcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\playerdeathcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|c:\\users\\edgar\\onedrive\\documents\\uni work\\introduction-to-mechanics-design\\platformer\\assets\\assessment 2\\spikehazard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\assets\\assessment 2\\spikehazard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\spikehazard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|c:\\users\\edgar\\onedrive\\documents\\uni work\\introduction-to-mechanics-design\\platformer\\assets\\assessment 2\\gameplayscenebootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\assets\\assessment 2\\gameplayscenebootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DF86CE5-98AD-27B9-C81C-95E986E42321}|Assembly-CSharp.csproj|solutionrelative:assets\\assessment 2\\gameplayscenebootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,7 +46,44 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LevelFinishTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\UI\\LevelFinishTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\assessment 2\\UI\\LevelFinishTrigger.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\UI\\LevelFinishTrigger.cs",
+              "RelativeToolTip": "Assets\\assessment 2\\UI\\LevelFinishTrigger.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T21:45:38.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LevelCompletionController.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\UI\\LevelCompletionController.cs",
+              "RelativeDocumentMoniker": "Assets\\assessment 2\\UI\\LevelCompletionController.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\UI\\LevelCompletionController.cs",
+              "RelativeToolTip": "Assets\\assessment 2\\UI\\LevelCompletionController.cs",
+              "ViewState": "AgIAAKABAAAAAAAAAAAiwLcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T21:45:07.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MainMenuController.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\UI\\MainMenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\assessment 2\\UI\\MainMenuController.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\UI\\MainMenuController.cs",
+              "RelativeToolTip": "Assets\\assessment 2\\UI\\MainMenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T21:41:50.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GameplaySceneBootstrap.cs",
               "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\GameplaySceneBootstrap.cs",
               "RelativeDocumentMoniker": "Assets\\assessment 2\\GameplaySceneBootstrap.cs",
@@ -42,12 +91,11 @@
               "RelativeToolTip": "Assets\\assessment 2\\GameplaySceneBootstrap.cs",
               "ViewState": "AgIAAOECAAAAAAAAAAAiwA0DAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T16:26:42.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-08T16:26:42.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PlayerDeathController.cs",
               "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\PlayerDeathController.cs",
               "RelativeDocumentMoniker": "Assets\\assessment 2\\PlayerDeathController.cs",
@@ -55,12 +103,11 @@
               "RelativeToolTip": "Assets\\assessment 2\\PlayerDeathController.cs",
               "ViewState": "AgIAAJUAAAAAAAAAAAAiwMEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T16:26:20.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-08T16:26:20.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SpikeHazard.cs",
               "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\SpikeHazard.cs",
               "RelativeDocumentMoniker": "Assets\\assessment 2\\SpikeHazard.cs",
@@ -68,12 +115,11 @@
               "RelativeToolTip": "Assets\\assessment 2\\SpikeHazard.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T16:25:59.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-08T16:25:59.483Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "PlayerForgiveness_Jumping.cs",
               "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 1\\Forgivess mechanics\\PlayerForgiveness_Jumping.cs",
               "RelativeDocumentMoniker": "Assets\\assessment 1\\Forgivess mechanics\\PlayerForgiveness_Jumping.cs",
@@ -85,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "PlayerGameJuice.cs",
               "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documents\\UNI WORK\\INTRODUCTION-TO-MECHANICS-DESIGN\\platformer\\Assets\\assessment 2\\Juicefeel\\PlayerGameJuice.cs",
               "RelativeDocumentMoniker": "Assets\\assessment 2\\Juicefeel\\PlayerGameJuice.cs",
